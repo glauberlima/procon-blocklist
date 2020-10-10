@@ -1,0 +1,41 @@
+name: Gerar listas
+
+on:
+  "workflow_dispatch":
+  push:
+  schedule:
+    - cron: "0 3 * * 1-5"
+
+jobs:
+  gerar-listas:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+        
+      - name: Checkout
+        run: |
+          git config user.name "Glauber Lima [GitHub Actions]"
+          git config user.email "glauberlima@users.noreply.github.com"
+
+      - name: Obter dados do Procon e gerar listas
+        working-directory: ./lists
+        run: |
+          curl "https://sistemas.procon.sp.gov.br/evitesite/list/evitesite.php?action=list&jtStartIndex=0&jtPageSize=600&jtSorting=strSite%20ASC" | jq .Records[] | jq -r .strSite > raw.txt
+          git add -A
+          if [ -z "$(git status --porcelain)" ]; then
+              echo "Nenhuma alteração detectada."
+              exit 1
+          fi
+          {
+              echo "! Title: Evite esses Sites - Procon-SP"
+              echo "! Expires: 1 day"
+              echo "! Description: Lista gerada a partir do site Evite esses Sites - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php - Fundação Procon/SP"
+              echo "! Homepage: https://github.com/glauberlima/procon-badsites"
+              echo "! Licence: https://github.com/glauberlima/procon-badsites/blob/main/LICENSE"
+              echo "! Updated: $(date +"%d %B %Y %H:%M:%S (GMT%:z)")"
+          } >> adblock.txt
+          while IFS= read -r line; do echo "||$line^" >> adblock.txt; done < raw.txt
+          git add -A
+          git commit -m "Lista atualizada - $(date +"%d/%m/%Y %H:%M:%S (GMT%:z)")"
+          git push
