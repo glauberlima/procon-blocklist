@@ -1,6 +1,7 @@
 name: Gerar listas
 
 on:
+  create:
   "workflow_dispatch":
   push:
   schedule:
@@ -38,4 +39,5 @@ jobs:
           while IFS= read -r line; do echo "||$line^" >> adblock.txt; done < raw.txt
           git add -A
           git commit -m "Lista atualizada - $(date +"%d/%m/%Y %H:%M:%S (GMT%:z)")"
-          git push
+          git tag $(date +"%Y%m%d-%H%M%S")
+          git push --follow-tags
