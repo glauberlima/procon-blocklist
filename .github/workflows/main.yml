@@ -40,4 +40,4 @@ jobs:
           git add -A
           git commit -m "Lista atualizada - $(date +"%d/%m/%Y %H:%M:%S (GMT%:z)")"
           git tag $(date +"%Y%m%d-%H%M%S")
-          git push --follow-tags
+          git push --signed --tags
