@@ -9,7 +9,7 @@ on:
 
 jobs:
   gerar-listas:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
 
     steps:
       - uses: actions/checkout@v2
@@ -26,7 +26,7 @@ jobs:
           git add -A
           if [ -z "$(git status --porcelain)" ]; then
               echo "Nenhuma alteração detectada."
-              exit 1
+              exit 0
           fi
           {
               echo "! Title: Evite esses Sites - Procon-SP"
@@ -35,9 +35,8 @@ jobs:
               echo "! Homepage: https://github.com/glauberlima/procon-badsites"
               echo "! Licence: https://github.com/glauberlima/procon-badsites/blob/main/LICENSE"
               echo "! Updated: $(date +"%d %B %Y %H:%M:%S (GMT%:z)")"
-          } >> adblock.txt
+          } > adblock.txt
           while IFS= read -r line; do echo "||$line^" >> adblock.txt; done < raw.txt
           git add -A
           git commit -m "Lista atualizada - $(date +"%d/%m/%Y %H:%M:%S (GMT%:z)")"
-          git tag $(date +"%Y%m%d-%H%M%S")
-          git push --tags
+          git push
