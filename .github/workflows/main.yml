@@ -43,11 +43,11 @@ jobs:
           git add adblock.txt
 
           {
-              echo "! Title: Evite esses Sites - Procon-SP"
-              echo "! Description: Lista gerada a partir do site Evite esses Sites - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php - Fundação Procon/SP"
-              echo "! Homepage: https://github.com/glauberlima/procon-badsites"
-              echo "! Licence: https://github.com/glauberlima/procon-badsites/blob/main/LICENSE"
-              echo "! Updated: $(date +"%d %B %Y %H:%M:%S (GMT%:z)")"
+              echo "# Title: Evite esses Sites - Procon-SP"
+              echo "# Description: Lista gerada a partir do site Evite esses Sites - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php - Fundação Procon/SP"
+              echo "# Homepage: https://github.com/glauberlima/procon-badsites"
+              echo "# Licence: https://github.com/glauberlima/procon-badsites/blob/main/LICENSE"
+              echo "# Updated: $(date +"%d %B %Y %H:%M:%S (GMT%:z)")"
           } > hosts.txt
           while IFS= read -r line; do echo "0.0.0.0 $line" >> hosts.txt; done < raw.txt
           git add hosts.txt
