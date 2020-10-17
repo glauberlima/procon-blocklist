@@ -30,6 +30,7 @@ jobs:
               echo "Nenhuma alteração detectada."
               exit 0
           fi
+          
           {
               echo "! Title: Evite esses Sites - Procon-SP"
               echo "! Expires: 1 day"
@@ -40,5 +41,16 @@ jobs:
           } > adblock.txt
           while IFS= read -r line; do echo "||$line^" >> adblock.txt; done < raw.txt
           git add adblock.txt
+
+          {
+              echo "! Title: Evite esses Sites - Procon-SP"
+              echo "! Description: Lista gerada a partir do site Evite esses Sites - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php - Fundação Procon/SP"
+              echo "! Homepage: https://github.com/glauberlima/procon-badsites"
+              echo "! Licence: https://github.com/glauberlima/procon-badsites/blob/main/LICENSE"
+              echo "! Updated: $(date +"%d %B %Y %H:%M:%S (GMT%:z)")"
+          } > hosts.txt
+          while IFS= read -r line; do echo "0.0.0.0 $line" >> hots.txt; done < raw.txt
+          git add hosts.txt
+
           git commit -m "Lista atualizada - $(date +"%d/%m/%Y %H:%M:%S (GMT%:z)")"
           git push
