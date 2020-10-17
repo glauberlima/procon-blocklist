@@ -9,7 +9,7 @@ on:
 
 jobs:
   gerar-listas:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v2
@@ -23,7 +23,9 @@ jobs:
         working-directory: ./lists
         run: |
           curl "https://sistemas.procon.sp.gov.br/evitesite/list/evitesite.php?action=list&jtStartIndex=0&jtPageSize=600&jtSorting=strSite%20ASC" | jq .Records[] | jq -r .strSite > raw.txt
-          git add -A
+          rawhash=($(sha256sum raw.txt))
+          cat rawhash > .control
+          git add .control
           if [ -z "$(git status --porcelain)" ]; then
               echo "Nenhuma alteração detectada."
               exit 0
@@ -37,6 +39,6 @@ jobs:
               echo "! Updated: $(date +"%d %B %Y %H:%M:%S (GMT%:z)")"
           } > adblock.txt
           while IFS= read -r line; do echo "||$line^" >> adblock.txt; done < raw.txt
-          git add -A
+          git add adblock.txt
           git commit -m "Lista atualizada - $(date +"%d/%m/%Y %H:%M:%S (GMT%:z)")"
           git push
