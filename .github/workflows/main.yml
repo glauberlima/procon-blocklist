@@ -23,7 +23,7 @@ jobs:
         working-directory: ./lists
         run: |
           curl -s "https://sistemas.procon.sp.gov.br/evitesite/list/evitesite.php?action=list&jtStartIndex=0&jtPageSize=600&jtSorting=strSite%20ASC&_=$(date +%s)" | jq .Records[] | jq -r .strSite > raw.txt
-          h=($(sha256sum raw.txt)); echo $h > .control
+          h=($(sha256sum raw.txt)); echo $h > .control; rm raw.txt
           git add .control
           if [ -z "$(git status --porcelain)" ]; then
               echo "Nenhuma alteração detectada."
