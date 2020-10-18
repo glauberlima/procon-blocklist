@@ -22,9 +22,8 @@ jobs:
       - name: Obter dados do Procon e gerar listas
         working-directory: ./lists
         run: |
-          curl "https://sistemas.procon.sp.gov.br/evitesite/list/evitesite.php?action=list&jtStartIndex=0&jtPageSize=600&jtSorting=strSite%20ASC" | jq .Records[] | jq -r .strSite > raw.txt
-          rawhash=($(sha256sum raw.txt))
-          echo $rawhash > .control
+          curl -s "https://sistemas.procon.sp.gov.br/evitesite/list/evitesite.php?action=list&jtStartIndex=0&jtPageSize=600&jtSorting=strSite%20ASC&_=$(date +%s)" | jq .Records[] | jq -r .strSite > raw.txt
+          h=($(sha256sum raw.txt)); echo $h > .control
           git add .control
           if [ -z "$(git status --porcelain)" ]; then
               echo "Nenhuma alteração detectada."
