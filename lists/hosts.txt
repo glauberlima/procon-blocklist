@@ -2,7 +2,7 @@
 # Description: Lista gerada a partir do site Evite esses Sites - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php - Fundação Procon/SP
 # Homepage: https://github.com/glauberlima/procon-badsites
 # Licence: https://github.com/glauberlima/procon-badsites/blob/main/LICENSE
-# Updated: 18 May 2021 03:06:20 (GMT+00:00)
+# Updated: 19 May 2021 03:00:20 (GMT+00:00)
 0.0.0.0 02eventos.com.br
 0.0.0.0 annymakeup.com.br
 0.0.0.0 artepress.com.br
@@ -10,11 +10,8 @@
 0.0.0.0 atrativamoveis.com.br
 0.0.0.0 aventurasepicas.com.br
 0.0.0.0 belezaexpressa.com
-0.0.0.0 belgrand.com.br
-0.0.0.0 birobiro.com.br
 0.0.0.0 boxeletro.com.br
 0.0.0.0 buscavantagem.com.br
-0.0.0.0 cardozoeletro.com.br
 0.0.0.0 ciadaslentes.com.br
 0.0.0.0 cicilia.com.br
 0.0.0.0 cofelen.com.br
@@ -25,7 +22,6 @@
 0.0.0.0 dimportbrasil.com.br
 0.0.0.0 donadona.com.br
 0.0.0.0 duks.com.br
-0.0.0.0 eleshop.com.br
 0.0.0.0 eletroalba.com.br
 0.0.0.0 eletrocataratas.com.br
 0.0.0.0 eletroed.com
@@ -41,7 +37,6 @@
 0.0.0.0 fiteletronicos.com.br
 0.0.0.0 frozenshop.com.br
 0.0.0.0 game7.com.br
-0.0.0.0 gamebonds.com
 0.0.0.0 gangmusic.com.br
 0.0.0.0 gennova.com.br
 0.0.0.0 gwxinformatica.com.br
@@ -57,7 +52,6 @@
 0.0.0.0 lefone.com.br
 0.0.0.0 legendsdobrasil.com.br
 0.0.0.0 lifeshoptv.com.br
-0.0.0.0 litortalshop.com.br
 0.0.0.0 livrariadoespirita.com.br
 0.0.0.0 localdoeletro.com.br
 0.0.0.0 logusapostilas.com
@@ -70,22 +64,17 @@
 0.0.0.0 LOJASAMIRA.COM.BR
 0.0.0.0 lojasfoco.com.br
 0.0.0.0 lojaskd.com.br
-0.0.0.0 lojaslouveira.com.br
-0.0.0.0 lojaspaulistinha.com.br
 0.0.0.0 lojavitaepe.com.br
 0.0.0.0 lojazoom.com.br
 0.0.0.0 luadishop.com.br
 0.0.0.0 luxdecoracoes.com.br
 0.0.0.0 magazinefernando.com
 0.0.0.0 makroeletronicos.com
-0.0.0.0 mastershoprioclaro.com.br
-0.0.0.0 megatix.com.br
 0.0.0.0 megaultra.com.br
 0.0.0.0 mobyeletro.com
 0.0.0.0 modajoy.com.br
 0.0.0.0 modatoi.com.br
 0.0.0.0 moveiscastilho.com.br
-0.0.0.0 needseletro.com.br
 0.0.0.0 netlens.com.br
 0.0.0.0 ofertaspremiumbr.com.br
 0.0.0.0 offthewall.com.br
@@ -94,15 +83,13 @@
 0.0.0.0 outletz.com.br
 0.0.0.0 paradiseimports.com.br
 0.0.0.0 paranaofertas.com.br
+0.0.0.0 peixeurbano.com.br
 0.0.0.0 perfumesoutlet.com.br
 0.0.0.0 pinheiroequipamento.com.br
 0.0.0.0 pneusdrive.com.br
 0.0.0.0 praticfacil.com.br
 0.0.0.0 premiumcode.com.br
 0.0.0.0 primevarejista.com.br
-0.0.0.0 priv8brands.com
-0.0.0.0 rakkubrasil.com.br
-0.0.0.0 rakkusaudemagnetica.com.br
 0.0.0.0 renval.com.br
 0.0.0.0 resetway.com
 0.0.0.0 rizzononline.com.br
@@ -110,15 +97,11 @@
 0.0.0.0 servicedistribuidora.com.br
 0.0.0.0 shopdular.com.br
 0.0.0.0 shopextramais.com
-0.0.0.0 shopgo.com.br
-0.0.0.0 shoppinggirls.com.br
 0.0.0.0 shoppingviracopos.com.br
-0.0.0.0 shopsecco.com.br
 0.0.0.0 silvainfoshop.com.br
 0.0.0.0 smartcentershopping.com.br
 0.0.0.0 souzaeletroshop.com.br
 0.0.0.0 spardashop.com.br
-0.0.0.0 stareasy.com.br
 0.0.0.0 superextraeletro.com.br
 0.0.0.0 suplementosninja.com.br
 0.0.0.0 tcrmoveis.com.br
@@ -131,7 +114,6 @@
 0.0.0.0 trivagomoveis.com.br
 0.0.0.0 uplimports.com.br
 0.0.0.0 usemojave.com.br
-0.0.0.0 useperfume.net.br
 0.0.0.0 usesofia.com.br
 0.0.0.0 vitaepe.com.br
 0.0.0.0 vitishop.com.br
@@ -139,4 +121,3 @@
 0.0.0.0 vocedeapple.com
 0.0.0.0 voltzz.com.br
 0.0.0.0 vortexair.com.br
-0.0.0.0 vula.com.br

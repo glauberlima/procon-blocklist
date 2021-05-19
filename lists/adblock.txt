@@ -3,7 +3,7 @@
 ! Description: Lista gerada a partir do site Evite esses Sites - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php - Fundação Procon/SP
 ! Homepage: https://github.com/glauberlima/procon-badsites
 ! Licence: https://github.com/glauberlima/procon-badsites/blob/main/LICENSE
-! Updated: 18 May 2021 03:06:20 (GMT+00:00)
+! Updated: 19 May 2021 03:00:20 (GMT+00:00)
 ||02eventos.com.br^
 ||annymakeup.com.br^
 ||artepress.com.br^
@@ -11,11 +11,8 @@
 ||atrativamoveis.com.br^
 ||aventurasepicas.com.br^
 ||belezaexpressa.com^
-||belgrand.com.br^
-||birobiro.com.br^
 ||boxeletro.com.br^
 ||buscavantagem.com.br^
-||cardozoeletro.com.br^
 ||ciadaslentes.com.br^
 ||cicilia.com.br^
 ||cofelen.com.br^
@@ -26,7 +23,6 @@
 ||dimportbrasil.com.br^
 ||donadona.com.br^
 ||duks.com.br^
-||eleshop.com.br^
 ||eletroalba.com.br^
 ||eletrocataratas.com.br^
 ||eletroed.com^
@@ -42,7 +38,6 @@
 ||fiteletronicos.com.br^
 ||frozenshop.com.br^
 ||game7.com.br^
-||gamebonds.com^
 ||gangmusic.com.br^
 ||gennova.com.br^
 ||gwxinformatica.com.br^
@@ -58,7 +53,6 @@
 ||lefone.com.br^
 ||legendsdobrasil.com.br^
 ||lifeshoptv.com.br^
-||litortalshop.com.br^
 ||livrariadoespirita.com.br^
 ||localdoeletro.com.br^
 ||logusapostilas.com^
@@ -71,22 +65,17 @@
 ||LOJASAMIRA.COM.BR^
 ||lojasfoco.com.br^
 ||lojaskd.com.br^
-||lojaslouveira.com.br^
-||lojaspaulistinha.com.br^
 ||lojavitaepe.com.br^
 ||lojazoom.com.br^
 ||luadishop.com.br^
 ||luxdecoracoes.com.br^
 ||magazinefernando.com^
 ||makroeletronicos.com^
-||mastershoprioclaro.com.br^
-||megatix.com.br^
 ||megaultra.com.br^
 ||mobyeletro.com^
 ||modajoy.com.br^
 ||modatoi.com.br^
 ||moveiscastilho.com.br^
-||needseletro.com.br^
 ||netlens.com.br^
 ||ofertaspremiumbr.com.br^
 ||offthewall.com.br^
@@ -95,15 +84,13 @@
 ||outletz.com.br^
 ||paradiseimports.com.br^
 ||paranaofertas.com.br^
+||peixeurbano.com.br^
 ||perfumesoutlet.com.br^
 ||pinheiroequipamento.com.br^
 ||pneusdrive.com.br^
 ||praticfacil.com.br^
 ||premiumcode.com.br^
 ||primevarejista.com.br^
-||priv8brands.com^
-||rakkubrasil.com.br^
-||rakkusaudemagnetica.com.br^
 ||renval.com.br^
 ||resetway.com^
 ||rizzononline.com.br^
@@ -111,15 +98,11 @@
 ||servicedistribuidora.com.br^
 ||shopdular.com.br^
 ||shopextramais.com^
-||shopgo.com.br^
-||shoppinggirls.com.br^
 ||shoppingviracopos.com.br^
-||shopsecco.com.br^
 ||silvainfoshop.com.br^
 ||smartcentershopping.com.br^
 ||souzaeletroshop.com.br^
 ||spardashop.com.br^
-||stareasy.com.br^
 ||superextraeletro.com.br^
 ||suplementosninja.com.br^
 ||tcrmoveis.com.br^
@@ -132,7 +115,6 @@
 ||trivagomoveis.com.br^
 ||uplimports.com.br^
 ||usemojave.com.br^
-||useperfume.net.br^
 ||usesofia.com.br^
 ||vitaepe.com.br^
 ||vitishop.com.br^
@@ -140,4 +122,3 @@
 ||vocedeapple.com^
 ||voltzz.com.br^
 ||vortexair.com.br^
-||vula.com.br^
