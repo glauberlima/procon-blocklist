@@ -2,7 +2,7 @@
 # Description: Lista gerada a partir do site Evite esses Sites - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php - Fundação Procon/SP
 # Homepage: https://github.com/glauberlima/procon-badsites
 # Licence: https://github.com/glauberlima/procon-badsites/blob/main/LICENSE
-# Updated: 23 June 2021 02:45:41 (GMT+00:00)
+# Updated: 24 June 2021 02:41:24 (GMT+00:00)
 0.0.0.0 02eventos.com.br
 0.0.0.0 annymakeup.com.br
 0.0.0.0 artepress.com.br
