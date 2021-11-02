@@ -3,18 +3,15 @@
 ! Description: Lista gerada a partir do site Evite esses Sites - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php - Fundação Procon/SP
 ! Homepage: https://github.com/glauberlima/procon-badsites
 ! Licence: https://github.com/glauberlima/procon-badsites/blob/main/LICENSE
-! Updated: 29 October 2021 02:45:23 (GMT+00:00)
+! Updated: 02 November 2021 02:47:59 (GMT+00:00)
 ||02eventos.com.br^
 ||annymakeup.com.br^
 ||artepress.com.br^
 ||atacadomania.com.br^
 ||atrativamoveis.com.br^
-||aventurasepicas.com.br^
 ||belezaexpressa.com^
 ||boxeletro.com.br^
-||buscavantagem.com.br^
 ||ciadaslentes.com.br^
-||cicilia.com.br^
 ||cofelen.com.br^
 ||coquelux.com.br^
 ||corpetesbrasil.com.br^
@@ -25,10 +22,8 @@
 ||duks.com.br^
 ||eletroalba.com.br^
 ||eletrocataratas.com.br^
-||eletroed.com^
 ||eletrojet.com.br^
 ||eletrojet.com.br^
-||essencialeletro.com.br^
 ||estilomenina.com.br^
 ||f5b.com.br^
 ||farejandoofertas.com.br^
@@ -37,31 +32,20 @@
 ||feetoutlet.com^
 ||fiteletronicos.com.br^
 ||frozenshop.com.br^
-||game7.com.br^
 ||gangmusic.com.br^
 ||gennova.com.br^
 ||gwxinformatica.com.br^
-||habitomoveis.com.br^
-||horuseletronicos.com.br^
-||imperioglassdecor.com.br^
-||infonot.com.br^
 ||jumbomagazine.com.br^
-||kopers.com.br^
 ||lalunacosmetics.com.br^
 ||larmovel.com.br^
 ||lealdadeshop.com.br^
-||lefone.com.br^
-||legendsdobrasil.com.br^
 ||lifeshoptv.com.br^
 ||livrariadoespirita.com.br^
 ||localdoeletro.com.br^
 ||logusapostilas.com^
-||lojabarcelona.com.br^
-||lojacasaroyal.com.br^
 ||lojaclickdecore.com.br^
 ||lojafrozen.com.br^
 ||lojamassa.com.br^
-||lojamaxbr.com.br^
 ||LOJASAMIRA.COM.BR^
 ||lojasfoco.com.br^
 ||lojaskd.com.br^
@@ -77,18 +61,14 @@
 ||modatoi.com.br^
 ||moveiscastilho.com.br^
 ||netlens.com.br^
-||ofertaspremiumbr.com.br^
 ||offthewall.com.br^
-||outletdodudu.com.br^
 ||outlettripp.com^
 ||outletz.com.br^
 ||paradiseimports.com.br^
 ||paranaofertas.com.br^
 ||peixeurbano.com.br^
-||perfumesoutlet.com.br^
 ||pinheiroequipamento.com.br^
 ||pneusdrive.com.br^
-||praticfacil.com.br^
 ||premiumcode.com.br^
 ||primevarejista.com.br^
 ||renval.com.br^
@@ -98,22 +78,16 @@
 ||servicedistribuidora.com.br^
 ||shopdular.com.br^
 ||shopextramais.com^
-||shoppingviracopos.com.br^
 ||silvainfoshop.com.br^
 ||smartcentershopping.com.br^
-||souzaeletroshop.com.br^
 ||spardashop.com.br^
 ||superextraeletro.com.br^
 ||suplementosninja.com.br^
-||tcrmoveis.com.br^
-||tecnoshopping.net.br^
 ||teleofertas.com.br^
 ||tenasa.com.br^
 ||tenisrun.com.br^
 ||tenisrunning.com.br^
 ||tennisrunning.com.br^
-||trivagomoveis.com.br^
-||uplimports.com.br^
 ||usemojave.com.br^
 ||usesofia.com.br^
 ||vitaepe.com.br^
