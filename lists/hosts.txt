@@ -2,7 +2,7 @@
 # Description: Lista gerada a partir do site Evite esses Sites - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php - Fundação Procon/SP
 # Homepage: https://github.com/glauberlima/procon-badsites
 # Licence: https://github.com/glauberlima/procon-badsites/blob/main/LICENSE
-# Updated: 04 March 2022 02:57:28 (GMT+00:00)
+# Updated: 08 March 2022 02:48:41 (GMT+00:00)
 0.0.0.0 02eventos.com.br
 0.0.0.0 annymakeup.com.br
 0.0.0.0 artepress.com.br
@@ -12,6 +12,7 @@
 0.0.0.0 boxeletro.com.br
 0.0.0.0 ciadaslentes.com.br
 0.0.0.0 cofelen.com.br
+0.0.0.0 compufree.com.br
 0.0.0.0 coquelux.com.br
 0.0.0.0 corpetesbrasil.com.br
 0.0.0.0 corpoperfeito.com.br
