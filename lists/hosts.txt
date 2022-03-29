@@ -2,8 +2,9 @@
 # Description: Lista gerada a partir do site Evite esses Sites - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php - Fundação Procon/SP
 # Homepage: https://github.com/glauberlima/procon-badsites
 # Licence: https://github.com/glauberlima/procon-badsites/blob/main/LICENSE
-# Updated: 25 March 2022 02:59:22 (GMT+00:00)
+# Updated: 29 March 2022 03:11:37 (GMT+00:00)
 0.0.0.0 02eventos.com.br
+0.0.0.0 Acessivelmodasbras.com.br 
 0.0.0.0 annymakeup.com.br
 0.0.0.0 artepress.com.br
 0.0.0.0 atacadomania.com.br
@@ -11,11 +12,13 @@
 0.0.0.0 belezaexpressa.com
 0.0.0.0 boxeletro.com.br
 0.0.0.0 ciadaslentes.com.br
+0.0.0.0 Cintosbyhi.com.br 
 0.0.0.0 cofelen.com.br
 0.0.0.0 compufree.com.br
 0.0.0.0 coquelux.com.br
 0.0.0.0 corpetesbrasil.com.br
 0.0.0.0 corpoperfeito.com.br
+0.0.0.0 Descontosbrasileiro.com
 0.0.0.0 diashop.com.br
 0.0.0.0 dimportbrasil.com.br
 0.0.0.0 donadona.com.br
@@ -33,11 +36,13 @@
 0.0.0.0 fiteletronicos.com.br
 0.0.0.0 frozenshop.com.br
 0.0.0.0 gangmusic.com.br
+0.0.0.0 Gelniche.com.br
 0.0.0.0 gennova.com.br
 0.0.0.0 gwxinformatica.com.br
 0.0.0.0 jumbomagazine.com.br
 0.0.0.0 lalunacosmetics.com.br
 0.0.0.0 larmovel.com.br
+0.0.0.0 Lbashop.com.br 
 0.0.0.0 lealdadeshop.com.br
 0.0.0.0 lifeshoptv.com.br
 0.0.0.0 livrariadoespirita.com.br
@@ -51,6 +56,7 @@
 0.0.0.0 lojaskd.com.br
 0.0.0.0 lojavitaepe.com.br
 0.0.0.0 lojazoom.com.br
+0.0.0.0 Lovelybox.com.br
 0.0.0.0 luadishop.com.br
 0.0.0.0 luxdecoracoes.com.br
 0.0.0.0 magazinefernando.com
@@ -62,6 +68,7 @@
 0.0.0.0 moveiscastilho.com.br
 0.0.0.0 netlens.com.br
 0.0.0.0 offthewall.com.br
+0.0.0.0 Outletdasfraldas.com.br 
 0.0.0.0 outlettripp.com
 0.0.0.0 outletz.com.br
 0.0.0.0 paradiseimports.com.br
@@ -75,9 +82,12 @@
 0.0.0.0 resetway.com
 0.0.0.0 rizzononline.com.br
 0.0.0.0 rosadistribuidora.com.br
+0.0.0.0 Rosafashion.com.br 
+0.0.0.0 Santolarmoveis.com.br 
 0.0.0.0 servicedistribuidora.com.br
 0.0.0.0 shopdular.com.br
 0.0.0.0 shopextramais.com
+0.0.0.0 Sigaofertas.com.br 
 0.0.0.0 silvainfoshop.com.br
 0.0.0.0 smartcentershopping.com.br
 0.0.0.0 spardashop.com.br

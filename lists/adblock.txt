@@ -3,8 +3,9 @@
 ! Description: Lista gerada a partir do site Evite esses Sites - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php - Fundação Procon/SP
 ! Homepage: https://github.com/glauberlima/procon-badsites
 ! Licence: https://github.com/glauberlima/procon-badsites/blob/main/LICENSE
-! Updated: 25 March 2022 02:59:22 (GMT+00:00)
+! Updated: 29 March 2022 03:11:37 (GMT+00:00)
 ||02eventos.com.br^
+||Acessivelmodasbras.com.br ^
 ||annymakeup.com.br^
 ||artepress.com.br^
 ||atacadomania.com.br^
@@ -12,11 +13,13 @@
 ||belezaexpressa.com^
 ||boxeletro.com.br^
 ||ciadaslentes.com.br^
+||Cintosbyhi.com.br ^
 ||cofelen.com.br^
 ||compufree.com.br^
 ||coquelux.com.br^
 ||corpetesbrasil.com.br^
 ||corpoperfeito.com.br^
+||Descontosbrasileiro.com^
 ||diashop.com.br^
 ||dimportbrasil.com.br^
 ||donadona.com.br^
@@ -34,11 +37,13 @@
 ||fiteletronicos.com.br^
 ||frozenshop.com.br^
 ||gangmusic.com.br^
+||Gelniche.com.br^
 ||gennova.com.br^
 ||gwxinformatica.com.br^
 ||jumbomagazine.com.br^
 ||lalunacosmetics.com.br^
 ||larmovel.com.br^
+||Lbashop.com.br ^
 ||lealdadeshop.com.br^
 ||lifeshoptv.com.br^
 ||livrariadoespirita.com.br^
@@ -52,6 +57,7 @@
 ||lojaskd.com.br^
 ||lojavitaepe.com.br^
 ||lojazoom.com.br^
+||Lovelybox.com.br^
 ||luadishop.com.br^
 ||luxdecoracoes.com.br^
 ||magazinefernando.com^
@@ -63,6 +69,7 @@
 ||moveiscastilho.com.br^
 ||netlens.com.br^
 ||offthewall.com.br^
+||Outletdasfraldas.com.br ^
 ||outlettripp.com^
 ||outletz.com.br^
 ||paradiseimports.com.br^
@@ -76,9 +83,12 @@
 ||resetway.com^
 ||rizzononline.com.br^
 ||rosadistribuidora.com.br^
+||Rosafashion.com.br ^
+||Santolarmoveis.com.br ^
 ||servicedistribuidora.com.br^
 ||shopdular.com.br^
 ||shopextramais.com^
+||Sigaofertas.com.br ^
 ||silvainfoshop.com.br^
 ||smartcentershopping.com.br^
 ||spardashop.com.br^
