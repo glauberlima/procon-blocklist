@@ -3,9 +3,10 @@
 ! Description: Lista gerada a partir do site Evite esses Sites - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php - Fundação Procon/SP
 ! Homepage: https://github.com/glauberlima/procon-badsites
 ! Licence: https://github.com/glauberlima/procon-badsites/blob/main/LICENSE
-! Updated: 14 July 2022 03:57:14 (GMT+00:00)
+! Updated: 15 July 2022 04:03:20 (GMT+00:00)
 ||02eventos.com.br^
 ||Acessivelmodasbras.com.br ^
+||agachecomercial.net^
 ||annymakeup.com.br^
 ||artepress.com.br^
 ||atacadomania.com.br^
