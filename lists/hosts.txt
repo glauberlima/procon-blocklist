@@ -2,45 +2,4 @@
 # Description: Lista gerada a partir do site Evite esses Sites - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php - Fundação Procon/SP
 # Homepage: https://github.com/glauberlima/procon-badsites
 # Licence: https://github.com/glauberlima/procon-badsites/blob/main/LICENSE
-# Updated: 18 November 2022 03:27:09 (GMT+00:00)
-0.0.0.0 Acessivelmodasbras.com.br 
-0.0.0.0 agachecomercial.net
-0.0.0.0 Cintosbyhi.com.br 
-0.0.0.0 cofelen.com.br
-0.0.0.0 compufree.com.br
-0.0.0.0 coquelux.com.br
-0.0.0.0 corpetesbrasil.com.br
-0.0.0.0 Descontosbrasileiro.com
-0.0.0.0 dimportbrasil.com.br
-0.0.0.0 farejandoofertas.com.br
-0.0.0.0 fazeventossp.com.br
-0.0.0.0 feetoutlet.com
-0.0.0.0 frozenshop.com.br
-0.0.0.0 Gelniche.com.br
-0.0.0.0 jumbomagazine.com.br
-0.0.0.0 lalunacosmetics.com.br
-0.0.0.0 Lbashop.com.br 
-0.0.0.0 livrariadoespirita.com.br
-0.0.0.0 logusapostilas.com
-0.0.0.0 lojafrozen.com.br
-0.0.0.0 lojaskd.com.br
-0.0.0.0 Lovelybox.com.br
-0.0.0.0 luadishop.com.br
-0.0.0.0 luxdecoracoes.com.br
-0.0.0.0 mobyeletro.com
-0.0.0.0 offthewall.com.br
-0.0.0.0 Outletdasfraldas.com.br 
-0.0.0.0 outlettripp.com
-0.0.0.0 peixeurbano.com.br
-0.0.0.0 pneusdrive.com.br
-0.0.0.0 premiumcode.com.br
-0.0.0.0 primevarejista.com.br
-0.0.0.0 resetway.com
-0.0.0.0 Rosafashion.com.br 
-0.0.0.0 Santolarmoveis.com.br 
-0.0.0.0 Sigaofertas.com.br 
-0.0.0.0 tenisrun.com.br
-0.0.0.0 usesofia.com.br
-0.0.0.0 vl2b.com.br
-0.0.0.0 voltzz.com.br
-0.0.0.0 vortexair.com.br
+# Updated: 22 November 2022 03:24:42 (GMT+00:00)

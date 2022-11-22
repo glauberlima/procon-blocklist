@@ -3,45 +3,4 @@
 ! Description: Lista gerada a partir do site Evite esses Sites - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php - Fundação Procon/SP
 ! Homepage: https://github.com/glauberlima/procon-badsites
 ! Licence: https://github.com/glauberlima/procon-badsites/blob/main/LICENSE
-! Updated: 18 November 2022 03:27:09 (GMT+00:00)
-||Acessivelmodasbras.com.br ^
-||agachecomercial.net^
-||Cintosbyhi.com.br ^
-||cofelen.com.br^
-||compufree.com.br^
-||coquelux.com.br^
-||corpetesbrasil.com.br^
-||Descontosbrasileiro.com^
-||dimportbrasil.com.br^
-||farejandoofertas.com.br^
-||fazeventossp.com.br^
-||feetoutlet.com^
-||frozenshop.com.br^
-||Gelniche.com.br^
-||jumbomagazine.com.br^
-||lalunacosmetics.com.br^
-||Lbashop.com.br ^
-||livrariadoespirita.com.br^
-||logusapostilas.com^
-||lojafrozen.com.br^
-||lojaskd.com.br^
-||Lovelybox.com.br^
-||luadishop.com.br^
-||luxdecoracoes.com.br^
-||mobyeletro.com^
-||offthewall.com.br^
-||Outletdasfraldas.com.br ^
-||outlettripp.com^
-||peixeurbano.com.br^
-||pneusdrive.com.br^
-||premiumcode.com.br^
-||primevarejista.com.br^
-||resetway.com^
-||Rosafashion.com.br ^
-||Santolarmoveis.com.br ^
-||Sigaofertas.com.br ^
-||tenisrun.com.br^
-||usesofia.com.br^
-||vl2b.com.br^
-||voltzz.com.br^
-||vortexair.com.br^
+! Updated: 22 November 2022 03:24:42 (GMT+00:00)
