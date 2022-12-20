@@ -3,11 +3,12 @@
 ! Description: Lista gerada a partir do site Evite esses Sites - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php - Fundação Procon/SP
 ! Homepage: https://github.com/glauberlima/procon-badsites
 ! Licence: https://github.com/glauberlima/procon-badsites/blob/main/LICENSE
-! Updated: 16 December 2022 02:45:16 (GMT+00:00)
+! Updated: 20 December 2022 02:49:10 (GMT+00:00)
 ||Acessivelmodasbras.com.br ^
 ||agachecomercial.net^
 ||Cintosbyhi.com.br ^
 ||cofelen.com.br^
+||cogumeloshop.com^
 ||compufree.com.br^
 ||coquelux.com.br^
 ||corpetesbrasil.com.br^
@@ -18,6 +19,7 @@
 ||feetoutlet.com^
 ||frozenshop.com.br^
 ||Gelniche.com.br^
+||hofferta.com^
 ||jumbomagazine.com.br^
 ||lalunacosmetics.com.br^
 ||Lbashop.com.br ^
@@ -39,8 +41,10 @@
 ||resetway.com^
 ||Rosafashion.com.br ^
 ||Santolarmoveis.com.br ^
+||shopmaxx.com.br^
 ||Sigaofertas.com.br ^
 ||tenisrun.com.br^
+||usenox.com^
 ||usesofia.com.br^
 ||vl2b.com.br^
 ||voltzz.com.br^
