@@ -2,7 +2,7 @@
 # Description: Lista gerada a partir do site Evite esses Sites - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php - Fundação Procon/SP
 # Homepage: https://github.com/glauberlima/procon-badsites
 # Licence: https://github.com/glauberlima/procon-badsites/blob/main/LICENSE
-# Updated: 17 March 2023 02:48:33 (GMT+00:00)
+# Updated: 21 March 2023 02:42:08 (GMT+00:00)
 0.0.0.0 Acessivelmodasbras.com.br 
 0.0.0.0 agachecomercial.net
 0.0.0.0 Cintosbyhi.com.br 
