@@ -3,7 +3,7 @@
 ! Description: Lista gerada a partir do site Evite esses Sites - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php - Fundação Procon/SP
 ! Homepage: https://github.com/glauberlima/procon-badsites
 ! Licence: https://github.com/glauberlima/procon-badsites/blob/main/LICENSE
-! Updated: 18 May 2023 02:42:17 (GMT+00:00)
+! Updated: 19 May 2023 02:42:44 (GMT+00:00)
 ||123importados.com^
 ||Acessivelmodasbras.com.br ^
 ||agachecomercial.net^
