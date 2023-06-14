@@ -3,8 +3,10 @@
 ! Description: Lista gerada a partir do site Evite esses Sites - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php - Fundação Procon/SP
 ! Homepage: https://github.com/glauberlima/procon-badsites
 ! Licence: https://github.com/glauberlima/procon-badsites/blob/main/LICENSE
-! Updated: 13 June 2023 02:50:35 (GMT+00:00)
+! Updated: 14 June 2023 02:49:47 (GMT+00:00)
 ||123importados.com^
+||123multiofertas.com.br^
+||123multiofertas.net^
 ||Acessivelmodasbras.com.br ^
 ||agachecomercial.net^
 ||Cintosbyhi.com.br ^
@@ -30,12 +32,14 @@
 ||leggingbrasil.com.br^
 ||livrariadoespirita.com.br^
 ||logusapostilas.com^
+||lojabestvarejos.com^
 ||lojafrozen.com.br^
 ||lojaskd.com.br^
 ||Lovelybox.com.br^
 ||luadishop.com.br^
 ||luxdecoracoes.com.br^
 ||mobyeletro.com^
+||nuvemdedescontos.com^
 ||offthewall.com.br^
 ||Outletdasfraldas.com.br ^
 ||outlettripp.com^
