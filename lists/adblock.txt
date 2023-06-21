@@ -3,12 +3,15 @@
 ! Description: Lista gerada a partir do site Evite esses Sites - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php - Fundação Procon/SP
 ! Homepage: https://github.com/glauberlima/procon-badsites
 ! Licence: https://github.com/glauberlima/procon-badsites/blob/main/LICENSE
-! Updated: 20 June 2023 02:46:32 (GMT+00:00)
+! Updated: 21 June 2023 02:47:05 (GMT+00:00)
 ||123importados.com^
 ||123multiofertas.com.br^
 ||123multiofertas.net^
 ||Acessivelmodasbras.com.br ^
 ||agachecomercial.net^
+||brezzy.com.br^
+||caixamisteriosa.com^
+||casadonatebrasil.com^
 ||Cintosbyhi.com.br ^
 ||cofelen.com.br^
 ||cogumeloshop.com^
@@ -40,9 +43,11 @@
 ||luxdecoracoes.com.br^
 ||mobyeletro.com^
 ||nuvemdedescontos.com^
+||ofertastore.com^
 ||offthewall.com.br^
 ||Outletdasfraldas.com.br ^
 ||outlettripp.com^
+||ovieto.com^
 ||peixeurbano.com.br^
 ||pneusdrive.com.br^
 ||premiumcode.com.br^
@@ -52,9 +57,14 @@
 ||Santolarmoveis.com.br ^
 ||shopmaxx.com.br^
 ||Sigaofertas.com.br ^
+||tecnotec.com.br^
 ||tenisrun.com.br^
+||tiggoshop.com.br^
 ||usenox.com^
 ||usesofia.com.br^
+||vivadecor.com.br^
+||vivonestore.com^
 ||vl2b.com.br^
 ||voltzz.com.br^
 ||vortexair.com.br^
+||zinnimodas.com^
