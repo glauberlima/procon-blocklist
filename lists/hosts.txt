@@ -2,7 +2,7 @@
 # Description: Lista gerada a partir do site Evite esses Sites - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php - Fundação Procon/SP
 # Homepage: https://github.com/glauberlima/procon-badsites
 # Licence: https://github.com/glauberlima/procon-badsites/blob/main/LICENSE
-# Updated: 22 June 2023 02:51:07 (GMT+00:00)
+# Updated: 23 June 2023 03:12:11 (GMT+00:00)
 0.0.0.0 123importados.com
 0.0.0.0 123multiofertas.com.br
 0.0.0.0 123multiofertas.net
@@ -46,7 +46,6 @@
 0.0.0.0 offthewall.com.br
 0.0.0.0 Outletdasfraldas.com.br 
 0.0.0.0 outlettripp.com
-0.0.0.0 ovieto.com
 0.0.0.0 peixeurbano.com.br
 0.0.0.0 pneusdrive.com.br
 0.0.0.0 premiumcode.com.br
