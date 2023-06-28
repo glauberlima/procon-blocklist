@@ -2,26 +2,39 @@
 # Description: Lista gerada a partir do site Evite esses Sites - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php - Fundação Procon/SP
 # Homepage: https://github.com/glauberlima/procon-badsites
 # Licence: https://github.com/glauberlima/procon-badsites/blob/main/LICENSE
-# Updated: 27 June 2023 03:10:12 (GMT+00:00)
+# Updated: 28 June 2023 03:08:28 (GMT+00:00)
 0.0.0.0 123importados.com
 0.0.0.0 123multiofertas.com.br
 0.0.0.0 123multiofertas.net
 0.0.0.0 Acessivelmodasbras.com.br 
 0.0.0.0 agachecomercial.net
+0.0.0.0 ascarishop.com
+0.0.0.0 bmjbaby.com.br
+0.0.0.0 boavistaacabamentos.com
+0.0.0.0 brasilmagazine.com
 0.0.0.0 brezzy.com.br
 0.0.0.0 caixamisteriosa.com
 0.0.0.0 casadonatebrasil.com
+0.0.0.0 casakith.com.br
+0.0.0.0 casamagazinebrasil.com
 0.0.0.0 Cintosbyhi.com.br 
 0.0.0.0 cofelen.com.br
 0.0.0.0 cogumeloshop.com
 0.0.0.0 compufree.com.br
 0.0.0.0 coquelux.com.br
 0.0.0.0 corpetesbrasil.com.br
+0.0.0.0 dbellestore.com
 0.0.0.0 Descontosbrasileiro.com
 0.0.0.0 dimportbrasil.com.br
+0.0.0.0 equipamentosrodrigues.com
+0.0.0.0 everestgroup.com.br
+0.0.0.0 fabricaauthenticite.com
+0.0.0.0 fabricashoes.com.br
 0.0.0.0 farejandoofertas.com.br
 0.0.0.0 fazeventossp.com.br
 0.0.0.0 feetoutlet.com
+0.0.0.0 feme.com.br
+0.0.0.0 flystorebrasil.com.br
 0.0.0.0 frozenshop.com.br
 0.0.0.0 Gelniche.com.br
 0.0.0.0 gigavarejo.com.br
@@ -32,14 +45,25 @@
 0.0.0.0 leggingbrasil.com
 0.0.0.0 leggingbrasil.com
 0.0.0.0 leggingbrasil.com.br
+0.0.0.0 lewadoimports.com
+0.0.0.0 liquidashoes.com.br
 0.0.0.0 livrariadoespirita.com.br
 0.0.0.0 logusapostilas.com
+0.0.0.0 lojaatlantis.com
 0.0.0.0 lojabestvarejos.com
+0.0.0.0 lojacondi.com
+0.0.0.0 lojadigivarejista.com
+0.0.0.0 lojadubaiimports.com.br
 0.0.0.0 lojafrozen.com.br
 0.0.0.0 lojaskd.com.br
+0.0.0.0 lojavitesse.com
 0.0.0.0 Lovelybox.com.br
 0.0.0.0 luadishop.com.br
 0.0.0.0 luxdecoracoes.com.br
+0.0.0.0 magazineal.com
+0.0.0.0 magazinedosatacados.com
+0.0.0.0 magazinestore.com
+0.0.0.0 magazinmulher.com.br
 0.0.0.0 mobyeletro.com
 0.0.0.0 nuvemdedescontos.com
 0.0.0.0 ofertastore.com
@@ -47,10 +71,14 @@
 0.0.0.0 Outletdasfraldas.com.br 
 0.0.0.0 outlettripp.com
 0.0.0.0 peixeurbano.com.br
+0.0.0.0 pijamasencantados.com.br
+0.0.0.0 pijamasmagicos.com.br
 0.0.0.0 pneusdrive.com.br
+0.0.0.0 premierexclusive.com.br
 0.0.0.0 premiumcode.com.br
 0.0.0.0 primevarejista.com.br
 0.0.0.0 resetway.com
+0.0.0.0 rocklin.com.br
 0.0.0.0 Rosafashion.com.br 
 0.0.0.0 Santolarmoveis.com.br 
 0.0.0.0 shopmaxx.com.br

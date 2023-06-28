@@ -3,26 +3,39 @@
 ! Description: Lista gerada a partir do site Evite esses Sites - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php - Fundação Procon/SP
 ! Homepage: https://github.com/glauberlima/procon-badsites
 ! Licence: https://github.com/glauberlima/procon-badsites/blob/main/LICENSE
-! Updated: 27 June 2023 03:10:12 (GMT+00:00)
+! Updated: 28 June 2023 03:08:28 (GMT+00:00)
 ||123importados.com^
 ||123multiofertas.com.br^
 ||123multiofertas.net^
 ||Acessivelmodasbras.com.br ^
 ||agachecomercial.net^
+||ascarishop.com^
+||bmjbaby.com.br^
+||boavistaacabamentos.com^
+||brasilmagazine.com^
 ||brezzy.com.br^
 ||caixamisteriosa.com^
 ||casadonatebrasil.com^
+||casakith.com.br^
+||casamagazinebrasil.com^
 ||Cintosbyhi.com.br ^
 ||cofelen.com.br^
 ||cogumeloshop.com^
 ||compufree.com.br^
 ||coquelux.com.br^
 ||corpetesbrasil.com.br^
+||dbellestore.com^
 ||Descontosbrasileiro.com^
 ||dimportbrasil.com.br^
+||equipamentosrodrigues.com^
+||everestgroup.com.br^
+||fabricaauthenticite.com^
+||fabricashoes.com.br^
 ||farejandoofertas.com.br^
 ||fazeventossp.com.br^
 ||feetoutlet.com^
+||feme.com.br^
+||flystorebrasil.com.br^
 ||frozenshop.com.br^
 ||Gelniche.com.br^
 ||gigavarejo.com.br^
@@ -33,14 +46,25 @@
 ||leggingbrasil.com^
 ||leggingbrasil.com^
 ||leggingbrasil.com.br^
+||lewadoimports.com^
+||liquidashoes.com.br^
 ||livrariadoespirita.com.br^
 ||logusapostilas.com^
+||lojaatlantis.com^
 ||lojabestvarejos.com^
+||lojacondi.com^
+||lojadigivarejista.com^
+||lojadubaiimports.com.br^
 ||lojafrozen.com.br^
 ||lojaskd.com.br^
+||lojavitesse.com^
 ||Lovelybox.com.br^
 ||luadishop.com.br^
 ||luxdecoracoes.com.br^
+||magazineal.com^
+||magazinedosatacados.com^
+||magazinestore.com^
+||magazinmulher.com.br^
 ||mobyeletro.com^
 ||nuvemdedescontos.com^
 ||ofertastore.com^
@@ -48,10 +72,14 @@
 ||Outletdasfraldas.com.br ^
 ||outlettripp.com^
 ||peixeurbano.com.br^
+||pijamasencantados.com.br^
+||pijamasmagicos.com.br^
 ||pneusdrive.com.br^
+||premierexclusive.com.br^
 ||premiumcode.com.br^
 ||primevarejista.com.br^
 ||resetway.com^
+||rocklin.com.br^
 ||Rosafashion.com.br ^
 ||Santolarmoveis.com.br ^
 ||shopmaxx.com.br^
