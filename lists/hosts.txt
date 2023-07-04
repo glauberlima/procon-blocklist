@@ -2,7 +2,7 @@
 # Description: Lista gerada a partir do site Evite esses Sites - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php - Fundação Procon/SP
 # Homepage: https://github.com/glauberlima/procon-badsites
 # Licence: https://github.com/glauberlima/procon-badsites/blob/main/LICENSE
-# Updated: 30 June 2023 03:02:48 (GMT+00:00)
+# Updated: 04 July 2023 03:10:09 (GMT+00:00)
 0.0.0.0 123importados.com
 0.0.0.0 123multiofertas.com.br
 0.0.0.0 123multiofertas.net
@@ -20,6 +20,7 @@
 0.0.0.0 Cintosbyhi.com.br 
 0.0.0.0 cofelen.com.br
 0.0.0.0 cogumeloshop.com
+0.0.0.0 comandantedasofertas.com
 0.0.0.0 compufree.com.br
 0.0.0.0 coquelux.com.br
 0.0.0.0 corpetesbrasil.com.br
