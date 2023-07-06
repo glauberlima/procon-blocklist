@@ -2,7 +2,7 @@
 # Description: Lista gerada a partir do site Evite esses Sites - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php - Fundação Procon/SP
 # Homepage: https://github.com/glauberlima/procon-badsites
 # Licence: https://github.com/glauberlima/procon-badsites/blob/main/LICENSE
-# Updated: 05 July 2023 03:09:33 (GMT+00:00)
+# Updated: 06 July 2023 03:11:12 (GMT+00:00)
 0.0.0.0 123importados.com
 0.0.0.0 123multiofertas.com.br
 0.0.0.0 123multiofertas.net
@@ -72,8 +72,6 @@
 0.0.0.0 Outletdasfraldas.com.br 
 0.0.0.0 outlettripp.com
 0.0.0.0 peixeurbano.com.br
-0.0.0.0 pijamasencantados.com.br
-0.0.0.0 pijamasmagicos.com.br
 0.0.0.0 pneusdrive.com.br
 0.0.0.0 premierexclusive.com.br
 0.0.0.0 premiumcode.com.br
