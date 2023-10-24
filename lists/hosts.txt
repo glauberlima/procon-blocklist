@@ -2,7 +2,7 @@
 # Description: Lista gerada a partir do site Evite esses Sites - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php - Fundação Procon/SP
 # Homepage: https://github.com/glauberlima/procon-badsites
 # Licence: https://github.com/glauberlima/procon-badsites/blob/main/LICENSE
-# Updated: 20 October 2023 02:33:45 (GMT+00:00)
+# Updated: 24 October 2023 02:34:24 (GMT+00:00)
 0.0.0.0 123importados.com
 0.0.0.0 123multiofertas.com.br
 0.0.0.0 123multiofertas.net
@@ -17,6 +17,7 @@
 0.0.0.0 casadonatebrasil.com
 0.0.0.0 casakith.com.br
 0.0.0.0 casamagazinebrasil.com
+0.0.0.0 centroofertas.com.br
 0.0.0.0 Cintosbyhi.com.br 
 0.0.0.0 cofelen.com.br
 0.0.0.0 cogumeloshop.com
@@ -27,6 +28,8 @@
 0.0.0.0 dbellestore.com
 0.0.0.0 Descontosbrasileiro.com
 0.0.0.0 dimportbrasil.com.br
+0.0.0.0 dutrametais.com
+0.0.0.0 dutrametais.com
 0.0.0.0 equipamentosrodrigues.com
 0.0.0.0 everestgroup.com.br
 0.0.0.0 fabricaauthenticite.com
@@ -40,6 +43,7 @@
 0.0.0.0 Gelniche.com.br
 0.0.0.0 gigavarejo.com.br
 0.0.0.0 hofferta.com
+0.0.0.0 iluminim.com.br
 0.0.0.0 jumbomagazine.com.br
 0.0.0.0 lalunacosmetics.com.br
 0.0.0.0 Lbashop.com.br 
@@ -79,6 +83,7 @@
 0.0.0.0 resetway.com
 0.0.0.0 rocklin.com.br
 0.0.0.0 Rosafashion.com.br 
+0.0.0.0 saldaocarioca.com.br
 0.0.0.0 Santolarmoveis.com.br 
 0.0.0.0 shopmaxx.com.br
 0.0.0.0 Sigaofertas.com.br 

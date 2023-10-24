@@ -3,7 +3,7 @@
 ! Description: Lista gerada a partir do site Evite esses Sites - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php - Fundação Procon/SP
 ! Homepage: https://github.com/glauberlima/procon-badsites
 ! Licence: https://github.com/glauberlima/procon-badsites/blob/main/LICENSE
-! Updated: 20 October 2023 02:33:45 (GMT+00:00)
+! Updated: 24 October 2023 02:34:24 (GMT+00:00)
 ||123importados.com^
 ||123multiofertas.com.br^
 ||123multiofertas.net^
@@ -18,6 +18,7 @@
 ||casadonatebrasil.com^
 ||casakith.com.br^
 ||casamagazinebrasil.com^
+||centroofertas.com.br^
 ||Cintosbyhi.com.br ^
 ||cofelen.com.br^
 ||cogumeloshop.com^
@@ -28,6 +29,8 @@
 ||dbellestore.com^
 ||Descontosbrasileiro.com^
 ||dimportbrasil.com.br^
+||dutrametais.com^
+||dutrametais.com^
 ||equipamentosrodrigues.com^
 ||everestgroup.com.br^
 ||fabricaauthenticite.com^
@@ -41,6 +44,7 @@
 ||Gelniche.com.br^
 ||gigavarejo.com.br^
 ||hofferta.com^
+||iluminim.com.br^
 ||jumbomagazine.com.br^
 ||lalunacosmetics.com.br^
 ||Lbashop.com.br ^
@@ -80,6 +84,7 @@
 ||resetway.com^
 ||rocklin.com.br^
 ||Rosafashion.com.br ^
+||saldaocarioca.com.br^
 ||Santolarmoveis.com.br ^
 ||shopmaxx.com.br^
 ||Sigaofertas.com.br ^
