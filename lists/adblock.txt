@@ -3,7 +3,7 @@
 ! Description: Lista gerada a partir do site Evite esses Sites - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php - Fundação Procon/SP
 ! Homepage: https://github.com/glauberlima/procon-badsites
 ! Licence: https://github.com/glauberlima/procon-badsites/blob/main/LICENSE
-! Updated: 01 November 2023 02:37:33 (GMT+00:00)
+! Updated: 02 November 2023 02:33:53 (GMT+00:00)
 ||123importados.com^
 ||123multiofertas.com.br^
 ||123multiofertas.net^
@@ -20,24 +20,18 @@
 ||casamagazinebrasil.com^
 ||centroofertas.com.br^
 ||Cintosbyhi.com.br ^
-||cofelen.com.br^
 ||cogumeloshop.com^
 ||comandantedasofertas.com^
 ||compufree.com.br^
-||coquelux.com.br^
-||corpetesbrasil.com.br^
 ||dbellestore.com^
 ||Descontosbrasileiro.com^
-||dimportbrasil.com.br^
 ||dutrametais.com^
 ||dutrametais.com^
 ||equipamentosrodrigues.com^
 ||everestgroup.com.br^
 ||fabricaauthenticite.com^
 ||fabricashoes.com.br^
-||farejandoofertas.com.br^
 ||fazeventossp.com.br^
-||feetoutlet.com^
 ||feme.com.br^
 ||flystorebrasil.com.br^
 ||frozenshop.com.br^
@@ -45,22 +39,18 @@
 ||gigavarejo.com.br^
 ||hofferta.com^
 ||iluminim.com.br^
-||jumbomagazine.com.br^
-||lalunacosmetics.com.br^
 ||Lbashop.com.br ^
 ||leggingbrasil.com^
 ||leggingbrasil.com^
 ||leggingbrasil.com.br^
 ||lewadoimports.com^
 ||liquidashoes.com.br^
-||livrariadoespirita.com.br^
 ||logusapostilas.com^
 ||lojaatlantis.com^
 ||lojabestvarejos.com^
 ||lojacondi.com^
 ||lojadigivarejista.com^
 ||lojadubaiimports.com.br^
-||lojafrozen.com.br^
 ||lojaskd.com.br^
 ||lojavitesse.com^
 ||Lovelybox.com.br^
@@ -75,13 +65,9 @@
 ||ofertastore.com^
 ||offthewall.com.br^
 ||Outletdasfraldas.com.br ^
-||outlettripp.com^
 ||peixeurbano.com.br^
 ||pneusdrive.com.br^
 ||premierexclusive.com.br^
-||premiumcode.com.br^
-||primevarejista.com.br^
-||resetway.com^
 ||rocklin.com.br^
 ||Rosafashion.com.br ^
 ||saldaocarioca.com.br^
@@ -95,7 +81,4 @@
 ||usesofia.com.br^
 ||vivadecor.com.br^
 ||vivonestore.com^
-||vl2b.com.br^
-||voltzz.com.br^
-||vortexair.com.br^
 ||zinnimodas.com^

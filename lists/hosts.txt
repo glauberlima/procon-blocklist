@@ -2,7 +2,7 @@
 # Description: Lista gerada a partir do site Evite esses Sites - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php - Fundação Procon/SP
 # Homepage: https://github.com/glauberlima/procon-badsites
 # Licence: https://github.com/glauberlima/procon-badsites/blob/main/LICENSE
-# Updated: 01 November 2023 02:37:33 (GMT+00:00)
+# Updated: 02 November 2023 02:33:53 (GMT+00:00)
 0.0.0.0 123importados.com
 0.0.0.0 123multiofertas.com.br
 0.0.0.0 123multiofertas.net
@@ -19,24 +19,18 @@
 0.0.0.0 casamagazinebrasil.com
 0.0.0.0 centroofertas.com.br
 0.0.0.0 Cintosbyhi.com.br 
-0.0.0.0 cofelen.com.br
 0.0.0.0 cogumeloshop.com
 0.0.0.0 comandantedasofertas.com
 0.0.0.0 compufree.com.br
-0.0.0.0 coquelux.com.br
-0.0.0.0 corpetesbrasil.com.br
 0.0.0.0 dbellestore.com
 0.0.0.0 Descontosbrasileiro.com
-0.0.0.0 dimportbrasil.com.br
 0.0.0.0 dutrametais.com
 0.0.0.0 dutrametais.com
 0.0.0.0 equipamentosrodrigues.com
 0.0.0.0 everestgroup.com.br
 0.0.0.0 fabricaauthenticite.com
 0.0.0.0 fabricashoes.com.br
-0.0.0.0 farejandoofertas.com.br
 0.0.0.0 fazeventossp.com.br
-0.0.0.0 feetoutlet.com
 0.0.0.0 feme.com.br
 0.0.0.0 flystorebrasil.com.br
 0.0.0.0 frozenshop.com.br
@@ -44,22 +38,18 @@
 0.0.0.0 gigavarejo.com.br
 0.0.0.0 hofferta.com
 0.0.0.0 iluminim.com.br
-0.0.0.0 jumbomagazine.com.br
-0.0.0.0 lalunacosmetics.com.br
 0.0.0.0 Lbashop.com.br 
 0.0.0.0 leggingbrasil.com
 0.0.0.0 leggingbrasil.com
 0.0.0.0 leggingbrasil.com.br
 0.0.0.0 lewadoimports.com
 0.0.0.0 liquidashoes.com.br
-0.0.0.0 livrariadoespirita.com.br
 0.0.0.0 logusapostilas.com
 0.0.0.0 lojaatlantis.com
 0.0.0.0 lojabestvarejos.com
 0.0.0.0 lojacondi.com
 0.0.0.0 lojadigivarejista.com
 0.0.0.0 lojadubaiimports.com.br
-0.0.0.0 lojafrozen.com.br
 0.0.0.0 lojaskd.com.br
 0.0.0.0 lojavitesse.com
 0.0.0.0 Lovelybox.com.br
@@ -74,13 +64,9 @@
 0.0.0.0 ofertastore.com
 0.0.0.0 offthewall.com.br
 0.0.0.0 Outletdasfraldas.com.br 
-0.0.0.0 outlettripp.com
 0.0.0.0 peixeurbano.com.br
 0.0.0.0 pneusdrive.com.br
 0.0.0.0 premierexclusive.com.br
-0.0.0.0 premiumcode.com.br
-0.0.0.0 primevarejista.com.br
-0.0.0.0 resetway.com
 0.0.0.0 rocklin.com.br
 0.0.0.0 Rosafashion.com.br 
 0.0.0.0 saldaocarioca.com.br
@@ -94,7 +80,4 @@
 0.0.0.0 usesofia.com.br
 0.0.0.0 vivadecor.com.br
 0.0.0.0 vivonestore.com
-0.0.0.0 vl2b.com.br
-0.0.0.0 voltzz.com.br
-0.0.0.0 vortexair.com.br
 0.0.0.0 zinnimodas.com
