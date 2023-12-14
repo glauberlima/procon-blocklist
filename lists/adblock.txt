@@ -3,12 +3,13 @@
 ! Description: Lista gerada a partir do site Evite esses Sites - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php - Fundação Procon/SP
 ! Homepage: https://github.com/glauberlima/procon-badsites
 ! Licence: https://github.com/glauberlima/procon-badsites/blob/main/LICENSE
-! Updated: 13 December 2023 02:40:29 (GMT+00:00)
+! Updated: 14 December 2023 02:38:51 (GMT+00:00)
 ||123importados.com^
 ||123multiofertas.com.br^
 ||123multiofertas.net^
 ||Acessivelmodasbras.com.br ^
 ||agachecomercial.net^
+||allprinter.com.br^
 ||ascarishop.com^
 ||bmjbaby.com.br^
 ||boavistaacabamentos.com^
@@ -35,10 +36,12 @@
 ||feme.com.br^
 ||flystorebrasil.com.br^
 ||frozenshop.com.br^
+||futcertobrasil.com^
 ||Gelniche.com.br^
 ||gigavarejo.com.br^
 ||hofferta.com^
 ||iluminim.com.br^
+||iwoseries.com^
 ||Lbashop.com.br ^
 ||leggingbrasil.com^
 ||leggingbrasil.com^
@@ -61,6 +64,7 @@
 ||magazinestore.com^
 ||magazinmulher.com.br^
 ||mobyeletro.com^
+||mundialeletro.com.br^
 ||nuvemdedescontos.com^
 ||ofertastore.com^
 ||offthewall.com.br^
@@ -70,6 +74,7 @@
 ||premierexclusive.com.br^
 ||rocklin.com.br^
 ||Rosafashion.com.br ^
+||safiravillage.com.br^
 ||saldaocarioca.com.br^
 ||Santolarmoveis.com.br ^
 ||shopmaxx.com.br^

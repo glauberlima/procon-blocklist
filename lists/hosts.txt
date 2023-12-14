@@ -2,12 +2,13 @@
 # Description: Lista gerada a partir do site Evite esses Sites - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php - Fundação Procon/SP
 # Homepage: https://github.com/glauberlima/procon-badsites
 # Licence: https://github.com/glauberlima/procon-badsites/blob/main/LICENSE
-# Updated: 13 December 2023 02:40:29 (GMT+00:00)
+# Updated: 14 December 2023 02:38:51 (GMT+00:00)
 0.0.0.0 123importados.com
 0.0.0.0 123multiofertas.com.br
 0.0.0.0 123multiofertas.net
 0.0.0.0 Acessivelmodasbras.com.br 
 0.0.0.0 agachecomercial.net
+0.0.0.0 allprinter.com.br
 0.0.0.0 ascarishop.com
 0.0.0.0 bmjbaby.com.br
 0.0.0.0 boavistaacabamentos.com
@@ -34,10 +35,12 @@
 0.0.0.0 feme.com.br
 0.0.0.0 flystorebrasil.com.br
 0.0.0.0 frozenshop.com.br
+0.0.0.0 futcertobrasil.com
 0.0.0.0 Gelniche.com.br
 0.0.0.0 gigavarejo.com.br
 0.0.0.0 hofferta.com
 0.0.0.0 iluminim.com.br
+0.0.0.0 iwoseries.com
 0.0.0.0 Lbashop.com.br 
 0.0.0.0 leggingbrasil.com
 0.0.0.0 leggingbrasil.com
@@ -60,6 +63,7 @@
 0.0.0.0 magazinestore.com
 0.0.0.0 magazinmulher.com.br
 0.0.0.0 mobyeletro.com
+0.0.0.0 mundialeletro.com.br
 0.0.0.0 nuvemdedescontos.com
 0.0.0.0 ofertastore.com
 0.0.0.0 offthewall.com.br
@@ -69,6 +73,7 @@
 0.0.0.0 premierexclusive.com.br
 0.0.0.0 rocklin.com.br
 0.0.0.0 Rosafashion.com.br 
+0.0.0.0 safiravillage.com.br
 0.0.0.0 saldaocarioca.com.br
 0.0.0.0 Santolarmoveis.com.br 
 0.0.0.0 shopmaxx.com.br
