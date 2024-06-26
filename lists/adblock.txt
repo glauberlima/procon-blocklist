@@ -3,7 +3,7 @@
 ! Description: Lista gerada a partir do site Evite esses Sites - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php - Fundação Procon/SP
 ! Homepage: https://github.com/glauberlima/procon-badsites
 ! Licence: https://github.com/glauberlima/procon-badsites/blob/main/LICENSE
-! Updated: 25 June 2024 02:44:19 (GMT+00:00)
+! Updated: 26 June 2024 02:43:34 (GMT+00:00)
 ||123importados.com^
 ||123multiofertas.com.br^
 ||123multiofertas.net^
@@ -13,6 +13,7 @@
 ||ascarishop.com^
 ||bmjbaby.com.br^
 ||boavistaacabamentos.com^
+||boticamaviris.com.br^
 ||brasilmagazine.com^
 ||brezzy.com.br^
 ||caixamisteriosa.com^
@@ -26,6 +27,7 @@
 ||compufree.com.br^
 ||dbellestore.com^
 ||Descontosbrasileiro.com^
+||drogariamc.com.br^
 ||dutrametais.com^
 ||dutrametais.com^
 ||equipamentosrodrigues.com^
@@ -53,6 +55,7 @@
 ||lojacondi.com^
 ||lojadigivarejista.com^
 ||lojadubaiimports.com.br^
+||lojaslondrina.com.br^
 ||lojavitesse.com^
 ||Lovelybox.com.br^
 ||luadishop.com.br^
