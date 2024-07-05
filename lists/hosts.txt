@@ -2,7 +2,7 @@
 # Description: Lista gerada a partir do site Evite esses Sites - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php - Fundação Procon/SP
 # Homepage: https://github.com/glauberlima/procon-badsites
 # Licence: https://github.com/glauberlima/procon-badsites/blob/main/LICENSE
-# Updated: 04 July 2024 02:45:06 (GMT+00:00)
+# Updated: 05 July 2024 02:43:47 (GMT+00:00)
 0.0.0.0 123importados.com
 0.0.0.0 123multiofertas.com.br
 0.0.0.0 123multiofertas.net
@@ -48,7 +48,6 @@
 0.0.0.0 leggingbrasil.com.br
 0.0.0.0 lewadoimports.com
 0.0.0.0 liquidashoes.com.br
-0.0.0.0 logusapostilas.com
 0.0.0.0 lojaatlantis.com
 0.0.0.0 lojabestvarejos.com
 0.0.0.0 lojacondi.com
@@ -58,12 +57,10 @@
 0.0.0.0 lojavitesse.com
 0.0.0.0 Lovelybox.com.br
 0.0.0.0 luadishop.com.br
-0.0.0.0 luxdecoracoes.com.br
 0.0.0.0 magazineal.com
 0.0.0.0 magazinedosatacados.com
 0.0.0.0 magazinestore.com
 0.0.0.0 magazinmulher.com.br
-0.0.0.0 mobyeletro.com
 0.0.0.0 mundialeletro.com.br
 0.0.0.0 nuvemdedescontos.com
 0.0.0.0 ofertastore.com
