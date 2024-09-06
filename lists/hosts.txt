@@ -2,7 +2,7 @@
 # Description: Lista gerada a partir do site Evite esses Sites - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php - Fundação Procon/SP
 # Homepage: https://github.com/glauberlima/procon-badsites
 # Licence: https://github.com/glauberlima/procon-badsites/blob/main/LICENSE
-# Updated: 05 September 2024 02:53:22 (GMT+00:00)
+# Updated: 06 September 2024 02:53:51 (GMT+00:00)
 0.0.0.0 123importados.com
 0.0.0.0 123multiofertas.com.br
 0.0.0.0 123multiofertas.net
@@ -39,6 +39,7 @@
 0.0.0.0 futcertobrasil.com
 0.0.0.0 Gelniche.com.br
 0.0.0.0 gigavarejo.com.br
+0.0.0.0 gomic.com.br
 0.0.0.0 hofferta.com
 0.0.0.0 iluminim.com.br
 0.0.0.0 iwoseries.com
