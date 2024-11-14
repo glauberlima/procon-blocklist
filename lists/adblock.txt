@@ -3,4 +3,4 @@
 ! Description: Lista gerada a partir do site Evite esses Sites - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php - Fundação Procon/SP
 ! Homepage: https://github.com/glauberlima/procon-badsites
 ! Licence: https://github.com/glauberlima/procon-badsites/blob/main/LICENSE
-! Updated: 13 November 2024 02:59:25 (GMT+00:00)
+! Updated: 14 November 2024 03:00:23 (GMT+00:00)
