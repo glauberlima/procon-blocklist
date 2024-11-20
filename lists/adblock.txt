@@ -3,4 +3,84 @@
 ! Description: Lista gerada a partir do site Evite esses Sites - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php - Fundação Procon/SP
 ! Homepage: https://github.com/glauberlima/procon-badsites
 ! Licence: https://github.com/glauberlima/procon-badsites/blob/main/LICENSE
-! Updated: 19 November 2024 03:07:59 (GMT+00:00)
+! Updated: 20 November 2024 03:07:12 (GMT+00:00)
+||123importados.com^
+||123multiofertas.com.br^
+||123multiofertas.net^
+||Acessivelmodasbras.com.br ^
+||agachecomercial.net^
+||allprinter.com.br^
+||ascarishop.com^
+||bmjbaby.com.br^
+||boavistaacabamentos.com^
+||boticamaviris.com.br^
+||brasilmagazine.com^
+||brezzy.com.br^
+||caixamisteriosa.com^
+||casadonatebrasil.com^
+||casakith.com.br^
+||casamagazinebrasil.com^
+||centroofertas.com.br^
+||Cintosbyhi.com.br ^
+||cogumeloshop.com^
+||comandantedasofertas.com^
+||compufree.com.br^
+||dbellestore.com^
+||Descontosbrasileiro.com^
+||drogariamc.com.br^
+||dutrametais.com^
+||dutrametais.com^
+||equipamentosrodrigues.com^
+||everestgroup.com.br^
+||fabricaauthenticite.com^
+||fabricashoes.com.br^
+||fazeventossp.com.br^
+||feme.com.br^
+||flystorebrasil.com.br^
+||futcertobrasil.com^
+||Gelniche.com.br^
+||gigavarejo.com.br^
+||gomic.com.br^
+||hofferta.com^
+||iluminim.com.br^
+||iwoseries.com^
+||Lbashop.com.br ^
+||leggingbrasil.com^
+||leggingbrasil.com^
+||leggingbrasil.com.br^
+||lewadoimports.com^
+||liquidashoes.com.br^
+||lojaatlantis.com^
+||lojabestvarejos.com^
+||lojacondi.com^
+||lojadigivarejista.com^
+||lojadubaiimports.com.br^
+||lojaslondrina.com.br^
+||lojavitesse.com^
+||Lovelybox.com.br^
+||luadishop.com.br^
+||magazineal.com^
+||magazinedosatacados.com^
+||magazinestore.com^
+||magazinmulher.com.br^
+||mundialeletro.com.br^
+||nuvemdedescontos.com^
+||ofertastore.com^
+||offthewall.com.br^
+||Outletdasfraldas.com.br ^
+||peixeurbano.com.br^
+||pneusdrive.com.br^
+||premierexclusive.com.br^
+||rocklin.com.br^
+||Rosafashion.com.br ^
+||safiravillage.com.br^
+||saldaocarioca.com.br^
+||Santolarmoveis.com.br ^
+||shopmaxx.com.br^
+||Sigaofertas.com.br ^
+||tecnotec.com.br^
+||tiggoshop.com.br^
+||usenox.com^
+||vivadecor.com.br^
+||vivonestore.com^
+||zinnimodas.com^
