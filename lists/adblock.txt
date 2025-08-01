@@ -3,7 +3,7 @@
 ! Description: Lista gerada a partir do site Evite esses Sites - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php - Fundação Procon/SP
 ! Homepage: https://github.com/glauberlima/procon-badsites
 ! Licence: https://github.com/glauberlima/procon-badsites/blob/main/LICENSE
-! Updated: 31 July 2025 03:49:55 (GMT+00:00)
+! Updated: 01 August 2025 04:03:33 (GMT+00:00)
 ||123importados.com^
 ||123multiofertas.com.br^
 ||123multiofertas.net^
@@ -34,7 +34,6 @@
 ||everestgroup.com.br^
 ||fabricaauthenticite.com^
 ||fabricashoes.com.br^
-||fazeventossp.com.br^
 ||feme.com.br^
 ||flystorebrasil.com.br^
 ||futcertobrasil.com^
@@ -58,7 +57,6 @@
 ||lojaslondrina.com.br^
 ||lojavitesse.com^
 ||Lovelybox.com.br^
-||luadishop.com.br^
 ||magazineal.com^
 ||magazinedosatacados.com^
 ||magazinestore.com^
@@ -66,10 +64,8 @@
 ||mundialeletro.com.br^
 ||nuvemdedescontos.com^
 ||ofertastore.com^
-||offthewall.com.br^
 ||Outletdasfraldas.com.br ^
 ||peixeurbano.com.br^
-||pneusdrive.com.br^
 ||premierexclusive.com.br^
 ||rocklin.com.br^
 ||Rosafashion.com.br ^
