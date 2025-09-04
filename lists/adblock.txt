@@ -3,7 +3,7 @@
 ! Description: Lista gerada a partir do site Evite esses Sites - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php - Fundação Procon/SP
 ! Homepage: https://github.com/glauberlima/procon-badsites
 ! Licence: https://github.com/glauberlima/procon-badsites/blob/main/LICENSE
-! Updated: 03 September 2025 03:05:48 (GMT+00:00)
+! Updated: 04 September 2025 03:06:50 (GMT+00:00)
 ||123importados.com^
 ||123multiofertas.com.br^
 ||123multiofertas.net^
@@ -35,14 +35,18 @@
 ||fabricaauthenticite.com^
 ||fabricashoes.com.br^
 ||feme.com.br^
+||ferrutini.com.br^
 ||flystorebrasil.com.br^
 ||futcertobrasil.com^
 ||Gelniche.com.br^
 ||gigavarejo.com.br^
 ||gomic.com.br^
 ||hofferta.com^
+||hotelurbano.com.br^
+||hurb.com^
 ||iluminim.com.br^
 ||iwoseries.com^
+||laserfast.com^
 ||Lbashop.com.br ^
 ||leggingbrasil.com^
 ||leggingbrasil.com^
@@ -54,6 +58,7 @@
 ||lojacondi.com^
 ||lojadigivarejista.com^
 ||lojadubaiimports.com.br^
+||lojamiofarma.com^
 ||lojaslondrina.com.br^
 ||lojavitesse.com^
 ||Lovelybox.com.br^
