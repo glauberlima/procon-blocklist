@@ -1,6 +1,6 @@
 [package]
 name = "procon-cli"
-version = "0.2.3"
+version = "0.2.4"
 edition = "2024"
 rust-version = "1.90"
 description = "Gera listas de bloqueio AdBlock e hosts a partir da base de dados de sites não confiáveis da Fundação Procon-SP"
