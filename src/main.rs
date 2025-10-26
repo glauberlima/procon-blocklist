@@ -74,65 +74,55 @@ async fn fetch_sites() -> anyhow::Result<Vec<String>> {
         .as_array()
         .ok_or_else(|| anyhow::anyhow!("Invalid JSON response: missing Records array"))?;
 
-    let mut sites = Vec::new();
-    for record in records {
-        if let Some(site) = record["strSite"].as_str() {
-            sites.push(site.to_string());
-        }
-    }
+    let sites: Vec<String> = records
+        .iter()
+        .filter_map(|record| record["strSite"].as_str().map(|s| s.to_string()))
+        .collect();
 
     Ok(sites)
 }
 
 fn generate_adblock(sites: &[String]) -> String {
-    let mut content = String::new();
-
-    // Header
-    content.push_str("! Title: Evite esses Sites - Fundação Procon-SP\n");
-    content.push_str("! Expires: 1 day\n");
-    content.push_str("! Description: Lista gerada a partir do site Evite esses Sites - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php - Fundação Procon/SP\n");
-    content.push_str("! Homepage: https://github.com/glauberlima/procon-blocklist\n");
-    content
-        .push_str("! Licence: https://github.com/glauberlima/procon-blocklist/blob/main/LICENSE\n");
-
     let now = chrono::Utc::now();
-    content.push_str(&format!(
-        "! Updated: {} (GMT{})\n",
+
+    let header = format!(
+        "! Title: Evite esses Sites - Fundação Procon-SP\n\
+         ! Expires: 1 day\n\
+         ! Description: Lista gerada a partir do site Evite esses Sites - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php - Fundação Procon/SP\n\
+         ! Homepage: https://github.com/glauberlima/procon-blocklist\n\
+         ! Licence: https://github.com/glauberlima/procon-blocklist/blob/main/LICENSE\n\
+         ! Updated: {} (GMT{})\n",
         now.format("%d %B %Y %H:%M:%S"),
         now.format("%:z")
-    ));
+    );
 
-    // Rules
-    for site in sites {
-        content.push_str(&format!("||{}^\n", site));
-    }
+    let rules = sites
+        .iter()
+        .map(|site| format!("||{}^\n", site))
+        .collect::<String>();
 
-    content
+    header + &rules
 }
 
 fn generate_hosts(sites: &[String]) -> String {
-    let mut content = String::new();
-
-    // Header
-    content.push_str("# Title: Evite esses Sites - Fundação Procon-SP\n");
-    content.push_str("# Description: Lista gerada a partir do site Evite esses Sites - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php - Fundação Procon/SP\n");
-    content.push_str("# Homepage: https://github.com/glauberlima/procon-blocklist\n");
-    content
-        .push_str("# Licence: https://github.com/glauberlima/procon-blocklist/blob/main/LICENSE\n");
-
     let now = chrono::Utc::now();
-    content.push_str(&format!(
-        "# Updated: {} (GMT{})\n",
+
+    let header = format!(
+        "# Title: Evite esses Sites - Fundação Procon-SP\n\
+         # Description: Lista gerada a partir do site Evite esses Sites - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php - Fundação Procon/SP\n\
+         # Homepage: https://github.com/glauberlima/procon-blocklist\n\
+         # Licence: https://github.com/glauberlima/procon-blocklist/blob/main/LICENSE\n\
+         # Updated: {} (GMT{})\n",
         now.format("%d %B %Y %H:%M:%S"),
         now.format("%:z")
-    ));
+    );
 
-    // Rules
-    for site in sites {
-        content.push_str(&format!("0.0.0.0 {}\n", site));
-    }
+    let rules = sites
+        .iter()
+        .map(|site| format!("0.0.0.0 {}\n", site))
+        .collect::<String>();
 
-    content
+    header + &rules
 }
 
 #[cfg(test)]

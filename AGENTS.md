@@ -9,7 +9,6 @@ This file provides guidance to agents when working with code in this repository.
 
 ## Code Style
 
-- API requests require Mozilla/5.0 user agent string for Procon-SP compatibility
 - Add timestamp query parameter "_" to API calls to prevent caching
 - Use eprintln! for progress messages, println! only for final output
 - Error handling: prefer anyhow::Result over custom error types
