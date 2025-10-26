@@ -101,7 +101,7 @@ jobs:
           body: |
             ## 📦 Release v${{ steps.get_version.outputs.version }}
 
-            Nova versão do Procon CLI - ferramenta para gerar listas de bloqueio de anúncios.
+            New version of Procon CLI - a tool to generate blocklists.
 
             ### 📥 Downloads
             - Linux (x86_64): `procon-cli-x86_64-unknown-linux-gnu.tar.gz`
@@ -109,12 +109,12 @@ jobs:
             - macOS (Apple Silicon): `procon-cli-aarch64-apple-darwin.tar.gz`
             - Windows (x86_64): `procon-cli-x86_64-pc-windows-gnu.zip`
 
-            ### 🚀 Como usar
+            ### 🚀 How to use
             ```bash
-            # Gerar lista adblock
+            # Generate adblock list
             ./procon-cli generate --output adblock.txt
 
-            # Gerar lista hosts
+            # Generate hosts list
             ./procon-cli generate --format hosts --output hosts.txt
             ```
           files: artifacts/**/*
