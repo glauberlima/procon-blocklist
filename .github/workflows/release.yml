@@ -1,0 +1,124 @@
+name: Release
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'procon-cli/**'
+      - '.github/workflows/release.yml'
+
+jobs:
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Rust
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          toolchain: 1.90.0
+
+      - name: Cache Rust dependencies
+        uses: Swatinem/rust-cache@v2
+
+      - name: Run tests
+        run: |
+          cd procon-cli
+          cargo test
+
+  build:
+    name: Build and Release
+    runs-on: ubuntu-latest
+    needs: test
+    strategy:
+      matrix:
+        target:
+          - x86_64-unknown-linux-gnu
+          - x86_64-apple-darwin
+          - x86_64-pc-windows-gnu
+          - aarch64-apple-darwin
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Rust
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          toolchain: 1.90.0
+          targets: ${{ matrix.target }}
+
+      - name: Cache Rust dependencies
+        uses: Swatinem/rust-cache@v2
+
+      - name: Build release binary
+        run: |
+          cd procon-cli
+          cargo build --release --target ${{ matrix.target }}
+
+      - name: Package binary
+        run: |
+          cd procon-cli/target/${{ matrix.target }}/release
+          if [[ "${{ matrix.target }}" == *"windows"* ]]; then
+            zip procon-cli-${{ matrix.target }}.zip procon-cli.exe
+          else
+            tar czf procon-cli-${{ matrix.target }}.tar.gz procon-cli
+          fi
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: procon-cli-${{ matrix.target }}
+          path: procon-cli/target/${{ matrix.target }}/release/procon-cli*
+
+  create-release:
+    name: Create GitHub Release
+    runs-on: ubuntu-latest
+    needs: build
+    if: github.ref == 'refs/heads/main' && contains(github.event.head_commit.message, 'feat') || contains(github.event.head_commit.message, 'fix') || contains(github.event.head_commit.message, 'BREAKING')
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download all artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: artifacts
+
+      - name: Get version from Cargo.toml
+        id: get_version
+        run: |
+          VERSION=$(grep '^version =' procon-cli/Cargo.toml | sed 's/version = "\(.*\)"/\1/')
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ steps.get_version.outputs.version }}
+          name: Release v${{ steps.get_version.outputs.version }}
+          body: |
+            ## 📦 Release v${{ steps.get_version.outputs.version }}
+
+            Nova versão do Procon CLI - ferramenta para gerar listas de bloqueio de anúncios.
+
+            ### 📥 Downloads
+            - Linux (x86_64): `procon-cli-x86_64-unknown-linux-gnu.tar.gz`
+            - macOS (Intel): `procon-cli-x86_64-apple-darwin.tar.gz`
+            - macOS (Apple Silicon): `procon-cli-aarch64-apple-darwin.tar.gz`
+            - Windows (x86_64): `procon-cli-x86_64-pc-windows-gnu.zip`
+
+            ### 🚀 Como usar
+            ```bash
+            # Gerar lista adblock
+            ./procon-cli generate --output adblock.txt
+
+            # Gerar lista hosts
+            ./procon-cli generate --format hosts --output hosts.txt
+            ```
+          files: artifacts/**/*
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
