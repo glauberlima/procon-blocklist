@@ -1,9 +1,9 @@
 ! Title: Evite esses Sites - Fundação Procon-SP
 ! Expires: 1 day
 ! Description: Lista gerada a partir do site Evite esses Sites - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php - Fundação Procon/SP
-! Homepage: https://github.com/glauberlima/procon-badsites
-! Licence: https://github.com/glauberlima/procon-badsites/blob/main/LICENSE
-! Updated: 24 October 2025 03:11:55 (GMT+00:00)
+! Homepage: https://github.com/glauberlima/procon-blocklist
+! Licence: https://github.com/glauberlima/procon-blocklist/blob/main/LICENSE
+! Updated: 26 October 2025 18:42:25 (GMT+00:00)
 ||123importados.com^
 ||123multiofertas.com.br^
 ||123multiofertas.net^

@@ -12,7 +12,7 @@
 
 ---
 
-> **⚠️ Aviso Importante**: Este é um projeto comunitário e não possui nenhuma ligação oficial com a Fundação Procon-SP. A iniciativa apenas utiliza a API pública disponível no [site oficial](https://sistemas.procon.sp.gov.br/evitesite/) para gerar listas de bloqueio de forma automatizada, visando proteger os consumidores brasileiros.
+> **⚠️ Aviso Importante**: Este é um projeto de código livre e não possui nenhuma ligação oficial com a Fundação Procon-SP. A iniciativa apenas utiliza a API pública disponível no [site oficial](https://sistemas.procon.sp.gov.br/evitesite/) para gerar listas de bloqueio de forma automatizada, visando proteger os consumidores.
 
 ---
 
@@ -92,7 +92,7 @@ Contribuições são muito bem-vindas!
 
 ## 📜 Licença
 
-Este projeto está licenciado sob a **Licença MIT**.
+Este projeto está licenciado sob a [**Licença MIT**](LICENSE).
 
 ## 🙏 Agradecimentos
 
