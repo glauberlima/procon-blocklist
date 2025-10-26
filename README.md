@@ -102,3 +102,6 @@ Este projeto está licenciado sob a **Licença MIT**.
 
 - **Fundação Procon-SP** pela disponibilização dos dados.
 - **Comunidade Rust** pelo ecossistema incrível.
+
+---
+Feito com ❤️, Rust e IA generativa
