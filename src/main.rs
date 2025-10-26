@@ -66,14 +66,8 @@ async fn fetch_sites() -> anyhow::Result<Vec<String>> {
         .duration_since(std::time::UNIX_EPOCH)?
         .as_secs();
 
-    let client = reqwest::Client::builder()
-        .user_agent("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
-        .build()?;
-    let response = client
-        .get(url)
-        .query(&[("_", timestamp)])
-        .send()
-        .await?;
+    let client = reqwest::Client::builder().build()?;
+    let response = client.get(url).query(&[("_", timestamp)]).send().await?;
 
     let json: serde_json::Value = response.json().await?;
     let records = json["Records"]
@@ -98,10 +92,12 @@ fn generate_adblock(sites: &[String]) -> String {
     content.push_str("! Expires: 1 day\n");
     content.push_str("! Description: Lista gerada a partir do site Evite esses Sites - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php - Fundação Procon/SP\n");
     content.push_str("! Homepage: https://github.com/glauberlima/procon-blocklist\n");
-    content.push_str("! Licence: https://github.com/glauberlima/procon-blocklist/blob/main/LICENSE\n");
+    content
+        .push_str("! Licence: https://github.com/glauberlima/procon-blocklist/blob/main/LICENSE\n");
 
     let now = chrono::Utc::now();
-    content.push_str(&format!("! Updated: {} (GMT{})\n",
+    content.push_str(&format!(
+        "! Updated: {} (GMT{})\n",
         now.format("%d %B %Y %H:%M:%S"),
         now.format("%:z")
     ));
@@ -121,10 +117,12 @@ fn generate_hosts(sites: &[String]) -> String {
     content.push_str("# Title: Evite esses Sites - Fundação Procon-SP\n");
     content.push_str("# Description: Lista gerada a partir do site Evite esses Sites - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php - Fundação Procon/SP\n");
     content.push_str("# Homepage: https://github.com/glauberlima/procon-blocklist\n");
-    content.push_str("# Licence: https://github.com/glauberlima/procon-blocklist/blob/main/LICENSE\n");
+    content
+        .push_str("# Licence: https://github.com/glauberlima/procon-blocklist/blob/main/LICENSE\n");
 
     let now = chrono::Utc::now();
-    content.push_str(&format!("# Updated: {} (GMT{})\n",
+    content.push_str(&format!(
+        "# Updated: {} (GMT{})\n",
         now.format("%d %B %Y %H:%M:%S"),
         now.format("%:z")
     ));
