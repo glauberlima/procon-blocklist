@@ -20,14 +20,10 @@
 
 As listas são atualizadas automaticamente de segunda a sexta-feira. Para se proteger, basta adicionar um dos links abaixo ao seu bloqueador de anúncios preferido.
 
-- **Formato AdBlock (recomendado):**
-  ```
-  https://raw.githubusercontent.com/glauberlima/procon-blocklist/main/lists/adblock.txt
-  ```
-- **Formato Hosts:**
-  ```
-  https://raw.githubusercontent.com/glauberlima/procon-blocklist/main/lists/hosts.txt
-  ```
+| Formato | Descrição | Link |
+|---------|-----------|------|
+| **AdBlock** (recomendado) | Lista de filtros para bloqueadores como uBlock Origin, AdGuard | [Download](https://raw.githubusercontent.com/glauberlima/procon-blocklist/main/lists/adblock.txt) |
+| **Hosts** | Arquivo hosts para bloqueio em nível de sistema | [Download](https://raw.githubusercontent.com/glauberlima/procon-blocklist/main/lists/hosts.txt) |
 
 ### ⚙️ Como Adicionar a Lista ao seu Bloqueador
 
