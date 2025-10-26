@@ -37,9 +37,6 @@ jobs:
       matrix:
         target:
           - x86_64-unknown-linux-gnu
-          - x86_64-apple-darwin
-          - x86_64-pc-windows-gnu
-          - aarch64-apple-darwin
 
     steps:
       - name: Checkout repository
@@ -105,9 +102,6 @@ jobs:
 
             ### 📥 Downloads
             - Linux (x86_64): `procon-cli-x86_64-unknown-linux-gnu.tar.gz`
-            - macOS (Intel): `procon-cli-x86_64-apple-darwin.tar.gz`
-            - macOS (Apple Silicon): `procon-cli-aarch64-apple-darwin.tar.gz`
-            - Windows (x86_64): `procon-cli-x86_64-pc-windows-gnu.zip`
 
             ### 🚀 How to use
             ```bash
