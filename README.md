@@ -263,6 +263,4 @@ Contribuições são bem-vindas! 🎉
 
 **Feito com ❤️ e Rust para proteger usuários brasileiros contra sites maliciosos**
 
-[⭐ Star este repo](https://github.com/glauberlima/procon-blocklist) • [🐛 Reportar bug](https://github.com/glauberlima/procon-blocklist/issues) • [💡 Sugerir feature](https://github.com/glauberlima/procon-blocklist/issues)
-
 </div>
