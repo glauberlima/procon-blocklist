@@ -1,6 +1,6 @@
 [package]
 name = "procon-cli"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2024"
 rust-version = "1.90"
 description = "CLI tool to generate adblock lists from Fundação Procon-SP bad sites database"
@@ -13,6 +13,13 @@ clap = { version = "4.5", features = ["derive"] }
 reqwest = { version = "0.12", default-features = false, features = ["json", "native-tls"] }
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
-tokio = { version = "1.48", features = ["full"] }
+tokio = { version = "1.48", features = ["rt-multi-thread", "macros"] }
 anyhow = "1.0"
-chrono = "0.4"
+chrono = { version = "0.4", default-features = false, features = ["std", "now"] }
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true
