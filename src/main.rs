@@ -3,7 +3,7 @@ use std::path::PathBuf;
 
 #[derive(Parser)]
 #[command(name = "procon-cli")]
-#[command(about = "Generate adblock lists from Fundação Procon-SP bad sites database")]
+#[command(about = "Gera listas de bloqueio AdBlock e hosts a partir da base de dados de sites não confiáveis da Fundação Procon-SP")]
 #[command(version)]
 struct Cli {
     #[command(subcommand)]
@@ -12,13 +12,13 @@ struct Cli {
 
 #[derive(Subcommand)]
 enum Commands {
-    /// Generate adblock list
+    /// Gera lista de bloqueio AdBlock
     Generate {
-        /// Output format: adblock or hosts
+        /// Formato de saída: adblock ou hosts
         #[arg(short, long, default_value = "adblock")]
         format: String,
 
-        /// Output file path (default: stdout)
+        /// Caminho do arquivo de saída (padrão: stdout)
         #[arg(short, long)]
         output: Option<PathBuf>,
     },
@@ -38,21 +38,21 @@ async fn main() -> anyhow::Result<()> {
 }
 
 async fn generate_list(format: String, output: Option<PathBuf>) -> anyhow::Result<()> {
-    eprintln!("Fetching sites from Fundação Procon-SP database...");
+    eprintln!("Buscando sites da base de dados da Fundação Procon-SP...");
     let sites = fetch_sites().await?;
-    eprintln!("Found {} sites", sites.len());
+    eprintln!("Encontrados {} sites", sites.len());
 
-    // Generate output based on format
+    // Gera saída baseada no formato
     let content = match format.as_str() {
         "adblock" => generate_adblock(&sites),
         "hosts" => generate_hosts(&sites),
-        _ => anyhow::bail!("Unsupported format: {}", format),
+        _ => anyhow::bail!("Formato não suportado: {}", format),
     };
 
-    // Output to file or stdout
+    // Saída para arquivo ou stdout
     if let Some(path) = output {
         std::fs::write(&path, &content)?;
-        eprintln!("List generated and saved to {}", path.display());
+        eprintln!("Lista gerada e salva em {}", path.display());
     } else {
         println!("{}", content);
     }
@@ -72,7 +72,7 @@ async fn fetch_sites() -> anyhow::Result<Vec<String>> {
     let json: serde_json::Value = response.json().await?;
     let records = json["Records"]
         .as_array()
-        .ok_or_else(|| anyhow::anyhow!("Invalid JSON response: missing Records array"))?;
+        .ok_or_else(|| anyhow::anyhow!("Resposta JSON inválida: array Records ausente"))?;
 
     let sites: Vec<String> = records
         .iter()
@@ -131,7 +131,6 @@ mod tests {
 
     #[test]
     fn test_mock_sites_structure() {
-        // Test that our mock data has expected structure
         let sites = vec![
             "123importados.com".to_string(),
             "123multiofertas.com.br".to_string(),
