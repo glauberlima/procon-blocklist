@@ -3,7 +3,7 @@ use std::path::PathBuf;
 
 #[derive(Parser)]
 #[command(name = "procon-cli")]
-#[command(about = "Generate adblock lists from Procon-SP bad sites database")]
+#[command(about = "Generate adblock lists from Fundação Procon-SP bad sites database")]
 #[command(version)]
 struct Cli {
     #[command(subcommand)]
@@ -38,7 +38,7 @@ async fn main() -> anyhow::Result<()> {
 }
 
 async fn generate_list(format: String, output: Option<PathBuf>) -> anyhow::Result<()> {
-    eprintln!("Fetching sites from Procon-SP database...");
+    eprintln!("Fetching sites from Fundação Procon-SP database...");
     let sites = fetch_sites().await?;
     eprintln!("Found {} sites", sites.len());
 
@@ -94,7 +94,7 @@ fn generate_adblock(sites: &[String]) -> String {
     let mut content = String::new();
 
     // Header
-    content.push_str("! Title: Evite esses Sites - Procon-SP\n");
+    content.push_str("! Title: Evite esses Sites - Fundação Procon-SP\n");
     content.push_str("! Expires: 1 day\n");
     content.push_str("! Description: Lista gerada a partir do site Evite esses Sites - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php - Fundação Procon/SP\n");
     content.push_str("! Homepage: https://github.com/glauberlima/procon-blocklist\n");
@@ -118,7 +118,7 @@ fn generate_hosts(sites: &[String]) -> String {
     let mut content = String::new();
 
     // Header
-    content.push_str("# Title: Evite esses Sites - Procon-SP\n");
+    content.push_str("# Title: Evite esses Sites - Fundação Procon-SP\n");
     content.push_str("# Description: Lista gerada a partir do site Evite esses Sites - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php - Fundação Procon/SP\n");
     content.push_str("# Homepage: https://github.com/glauberlima/procon-blocklist\n");
     content.push_str("# Licence: https://github.com/glauberlima/procon-blocklist/blob/main/LICENSE\n");
@@ -161,7 +161,7 @@ mod tests {
         let sites = vec!["example.com".to_string(), "test.org".to_string()];
         let result = generate_adblock(&sites);
 
-        assert!(result.contains("! Title: Evite esses Sites - Procon-SP"));
+        assert!(result.contains("! Title: Evite esses Sites - Fundação Procon-SP"));
         assert!(result.contains("||example.com^"));
         assert!(result.contains("||test.org^"));
     }
@@ -171,7 +171,7 @@ mod tests {
         let sites = vec!["example.com".to_string(), "test.org".to_string()];
         let result = generate_hosts(&sites);
 
-        assert!(result.contains("# Title: Evite esses Sites - Procon-SP"));
+        assert!(result.contains("# Title: Evite esses Sites - Fundação Procon-SP"));
         assert!(result.contains("0.0.0.0 example.com"));
         assert!(result.contains("0.0.0.0 test.org"));
     }
