@@ -55,20 +55,16 @@ jobs:
         run: |
           cargo build --release --target ${{ matrix.target }}
 
-      - name: Package binary
+      - name: Package Linux binary
         run: |
           cd target/${{ matrix.target }}/release
-          if [[ "${{ matrix.target }}" == *"windows"* ]]; then
-            zip procon-cli-${{ matrix.target }}.zip procon-cli.exe
-          else
-            tar czf procon-cli-${{ matrix.target }}.tar.gz procon-cli
-          fi
+          tar czf procon-cli-${{ matrix.target }}.tar.gz procon-cli
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
           name: procon-cli-${{ matrix.target }}
-          path: target/${{ matrix.target }}/release/procon-cli*
+          path: target/${{ matrix.target }}/release/*.tar.gz
 
   create-release:
     name: Create GitHub Release
@@ -94,9 +90,9 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           tag_name: v${{ steps.get_version.outputs.version }}
-          name: Release v${{ steps.get_version.outputs.version }}
+          name: v${{ steps.get_version.outputs.version }}
           body: |
-            ## 📦 Release v${{ steps.get_version.outputs.version }}
+            ## 📦 v${{ steps.get_version.outputs.version }}
 
             New version of Procon CLI - a tool to generate blocklists.
 
@@ -114,5 +110,7 @@ jobs:
           files: artifacts/**/*
           draft: false
           prerelease: false
+          make_latest: true
+          generate_release_notes: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
