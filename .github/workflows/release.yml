@@ -4,7 +4,9 @@ on:
   push:
     branches: [ main ]
     paths:
-      - 'procon-cli/**'
+      - 'src/**'
+      - 'Cargo.toml'
+      - 'Cargo.lock'
       - '.github/workflows/release.yml'
 
 jobs:
@@ -25,7 +27,6 @@ jobs:
 
       - name: Run tests
         run: |
-          cd procon-cli
           cargo test
 
   build:
@@ -55,12 +56,11 @@ jobs:
 
       - name: Build release binary
         run: |
-          cd procon-cli
           cargo build --release --target ${{ matrix.target }}
 
       - name: Package binary
         run: |
-          cd procon-cli/target/${{ matrix.target }}/release
+          cd target/${{ matrix.target }}/release
           if [[ "${{ matrix.target }}" == *"windows"* ]]; then
             zip procon-cli-${{ matrix.target }}.zip procon-cli.exe
           else
@@ -90,7 +90,7 @@ jobs:
       - name: Get version from Cargo.toml
         id: get_version
         run: |
-          VERSION=$(grep '^version =' procon-cli/Cargo.toml | sed 's/version = "\(.*\)"/\1/')
+          VERSION=$(grep '^version =' Cargo.toml | sed 's/version = "\(.*\)"/\1/')
           echo "version=$VERSION" >> $GITHUB_OUTPUT
 
       - name: Create GitHub Release

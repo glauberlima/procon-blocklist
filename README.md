@@ -1,12 +1,12 @@
-# 🚫 Procon CLI
+# 🚫 Lista de Bloqueio Procon-SP
 
 <div align="center">
 
-**Uma ferramenta CLI rápida e otimizada escrita em Rust para gerar listas de bloqueio de anúncios a partir do banco de dados de sites ruins do Procon-SP.**
+**Uma ferramenta CLI para gerar listas de bloqueio a partir da lista [Evite esses Sites](https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php) da Fundação Procon-SP.**
 
 [![Rust](https://img.shields.io/badge/rust-1.90.0-orange.svg)](https://www.rust-lang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub release](https://img.shields.io/github/release/glauberlima/procon-badsites.svg)](https://github.com/glauberlima/procon-badsites/releases)
+[![GitHub release](https://img.shields.io/github/release/glauberlima/procon-blocklist.svg)](https://github.com/glauberlima/procon-blocklist/releases)
 
 [📥 Baixar Listas](#-listas-geradas) • [🚀 Instalação](#instalação) • [📖 Uso](#uso) • [🤝 Contribuição](#contribuição)
 
@@ -14,8 +14,7 @@
 
 ---
 
-> **⚠️ Aviso Importante**: Este projeto não tem nenhuma ligação oficial com a Fundação Procon-SP. Ele apenas utiliza a API pública disponível no site oficial ([sistemas.procon.sp.gov.br/evitesite](https://sistemas.procon.sp.gov.br/evitesite/)) para prestar um serviço útil gerando automaticamente listas de bloqueio de anúncios em formatos práticos e acessíveis. O site oficial nunca ofereceu essa funcionalidade de forma automatizada e simples.
-
+> **⚠️ Aviso Importante**: Este projeto não tem nenhuma ligação oficial com a Fundação Procon-SP. Ele apenas utiliza a API pública disponível no [site oficial](https://sistemas.procon.sp.gov.br/evitesite/) para prestar um serviço útil gerando automaticamente listas de bloqueio, prontas para serem usadas em aplicativos do tipo _adblocker_ (bloqueadores de anúncios).
 ---
 
 ## ✨ Recursos
@@ -32,25 +31,28 @@
 As listas são atualizadas automaticamente todos os dias úteis às 02:30 (horário de Brasília). Use os links abaixo para adicionar diretamente aos seus bloqueadores de anúncios:
 
 ### 🛡️ Lista AdBlock
+
 ```
-https://raw.githubusercontent.com/glauberlima/procon-badsites/main/lists/adblock.txt
+https://raw.githubusercontent.com/glauberlima/procon-blocklist/main/lists/adblock.txt
 ```
 
 ### 🖥️ Lista Hosts
+
 ```
-https://raw.githubusercontent.com/glauberlima/procon-badsites/main/lists/hosts.txt
+https://raw.githubusercontent.com/glauberlima/procon-blocklist/main/lists/hosts.txt
 ```
 
 ### 📊 Estatísticas
+
 - **Última atualização**: Verifique o cabeçalho dos arquivos
 - **Frequência**: Diariamente (segunda a sexta-feira)
-- **Fonte**: [Procon-SP - Evite Esses Sites](https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php)
+- **Fonte**: [Fundação Procon-SP - Evite esses Sites](https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php)
 
 ## Instalação
 
 ### 📦 Binários Pré-compilados
 
-Baixe a versão mais recente da [página de releases](https://github.com/glauberlima/procon-badsites/releases):
+Baixe a versão mais recente da [página de releases](https://github.com/glauberlima/procon-blocklist/releases):
 
 - **Linux** (x86_64): `procon-cli-x86_64-unknown-linux-gnu.tar.gz`
 - **macOS** (Intel): `procon-cli-x86_64-apple-darwin.tar.gz`
@@ -61,8 +63,7 @@ Baixe a versão mais recente da [página de releases](https://github.com/glauber
 
 ```bash
 # Clone o repositório
-git clone https://github.com/glauberlima/procon-badsites.git
-cd procon-badsites/procon-cli
+git clone https://github.com/glauberlima/procon-blocklist.git
 
 # Compile em modo release
 cargo build --release
@@ -105,39 +106,43 @@ procon-cli generate --help
 ### 📱 Integração com Bloqueadores
 
 #### uBlock Origin / AdBlock Plus
+
 1. Abra as configurações do seu bloqueador
 2. Adicione filtro personalizado
-3. Cole o link RAW: `https://raw.githubusercontent.com/glauberlima/procon-badsites/main/lists/adblock.txt`
+3. Cole o link RAW: `https://raw.githubusercontent.com/glauberlima/procon-blocklist/main/lists/adblock.txt`
 
 #### Hosts File (Sistema)
+
 ```bash
 # Linux/macOS
-sudo curl https://raw.githubusercontent.com/glauberlima/procon-badsites/main/lists/hosts.txt >> /etc/hosts
+sudo curl https://raw.githubusercontent.com/glauberlima/procon-blocklist/main/lists/hosts.txt >> /etc/hosts
 
 # Windows (como administrador)
-curl https://raw.githubusercontent.com/glauberlima/procon-badsites/main/lists/hosts.txt >> C:\Windows\System32\drivers\etc\hosts
+curl https://raw.githubusercontent.com/glauberlima/procon-blocklist/main/lists/hosts.txt >> C:\Windows\System32\drivers\etc\hosts
 ```
 
 ## Formatos de Saída
 
 ### Formato Adblock
+
 ```
 ! Title: Evite esses Sites - Procon-SP
 ! Expires: 1 day
 ! Description: Lista gerada a partir do site Evite esses Sites - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php - Fundação Procon/SP
-! Homepage: https://github.com/glauberlima/procon-badsites
-! Licence: https://github.com/glauberlima/procon-badsites/blob/main/LICENSE
+! Homepage: https://github.com/glauberlima/procon-blocklist
+! Licence: https://github.com/glauberlima/procon-blocklist/blob/main/LICENSE
 ! Updated: 26 October 2025 11:08:53 (GMT+00:00)
 ||example.com^
 ||bad-site.org^
 ```
 
 ### Formato Hosts
+
 ```
 # Title: Evite esses Sites - Procon-SP
 # Description: Lista gerada a partir do site Evite esses Sites - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php - Fundação Procon/SP
-# Homepage: https://github.com/glauberlima/procon-badsites
-# Licence: https://github.com/glauberlima/procon-badsites/blob/main/LICENSE
+# Homepage: https://github.com/glauberlima/procon-blocklist
+# Licence: https://github.com/glauberlima/procon-blocklist/blob/main/LICENSE
 # Updated: 26 October 2025 11:08:53 (GMT+00:00)
 0.0.0.0 example.com
 0.0.0.0 bad-site.org
@@ -154,8 +159,8 @@ curl https://raw.githubusercontent.com/glauberlima/procon-badsites/main/lists/ho
 
 ```bash
 # Clone o repositório
-git clone https://github.com/glauberlima/procon-badsites.git
-cd procon-badsites/procon-cli
+git clone https://github.com/glauberlima/procon-blocklist.git
+cd procon-blocklist
 
 # Instale dependências
 cargo fetch
@@ -207,7 +212,7 @@ O CLI segue princípios de arquitetura limpa:
 ### 📁 Estrutura do Projeto
 
 ```
-procon-cli/
+procon-blocklist/
 ├── src/
 │   ├── main.rs          # Ponto de entrada e lógica principal
 │   └── lib.rs           # (Futuro) Biblioteca compartilhada
@@ -243,7 +248,7 @@ Contribuições são bem-vindas! 🎉
 
 ## 🔗 Projetos Relacionados
 
-- [**procon-badsites**](https://github.com/glauberlima/procon-badsites) - Repositório principal com as listas geradas
+- [**procon-blocklist**](https://github.com/glauberlima/procon-blocklist) - Repositório principal com as listas geradas
 - [**Procon-SP**](https://sistemas.procon.sp.gov.br/evitesite/) - Site oficial do Procon-SP
 
 ## 🙏 Agradecimentos
@@ -258,6 +263,6 @@ Contribuições são bem-vindas! 🎉
 
 **Feito com ❤️ e Rust para proteger usuários brasileiros contra sites maliciosos**
 
-[⭐ Star este repo](https://github.com/glauberlima/procon-badsites) • [🐛 Reportar bug](https://github.com/glauberlima/procon-badsites/issues) • [💡 Sugerir feature](https://github.com/glauberlima/procon-badsites/issues)
+[⭐ Star este repo](https://github.com/glauberlima/procon-blocklist) • [🐛 Reportar bug](https://github.com/glauberlima/procon-blocklist/issues) • [💡 Sugerir feature](https://github.com/glauberlima/procon-blocklist/issues)
 
 </div>

@@ -97,8 +97,8 @@ fn generate_adblock(sites: &[String]) -> String {
     content.push_str("! Title: Evite esses Sites - Procon-SP\n");
     content.push_str("! Expires: 1 day\n");
     content.push_str("! Description: Lista gerada a partir do site Evite esses Sites - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php - Fundação Procon/SP\n");
-    content.push_str("! Homepage: https://github.com/glauberlima/procon-badsites\n");
-    content.push_str("! Licence: https://github.com/glauberlima/procon-badsites/blob/main/LICENSE\n");
+    content.push_str("! Homepage: https://github.com/glauberlima/procon-blocklist\n");
+    content.push_str("! Licence: https://github.com/glauberlima/procon-blocklist/blob/main/LICENSE\n");
 
     let now = chrono::Utc::now();
     content.push_str(&format!("! Updated: {} (GMT{})\n",
@@ -120,8 +120,8 @@ fn generate_hosts(sites: &[String]) -> String {
     // Header
     content.push_str("# Title: Evite esses Sites - Procon-SP\n");
     content.push_str("# Description: Lista gerada a partir do site Evite esses Sites - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php - Fundação Procon/SP\n");
-    content.push_str("# Homepage: https://github.com/glauberlima/procon-badsites\n");
-    content.push_str("# Licence: https://github.com/glauberlima/procon-badsites/blob/main/LICENSE\n");
+    content.push_str("# Homepage: https://github.com/glauberlima/procon-blocklist\n");
+    content.push_str("# Licence: https://github.com/glauberlima/procon-blocklist/blob/main/LICENSE\n");
 
     let now = chrono::Utc::now();
     content.push_str(&format!("# Updated: {} (GMT{})\n",

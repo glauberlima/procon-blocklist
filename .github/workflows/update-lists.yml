@@ -27,7 +27,7 @@ jobs:
       - name: Download latest Procon CLI
         run: |
           # Download the latest Linux binary from releases
-          LATEST_RELEASE=$(curl -s https://api.github.com/repos/glauberlima/procon-badsites/releases/latest | jq -r '.assets[] | select(.name | contains("x86_64-unknown-linux-gnu")) | .browser_download_url')
+          LATEST_RELEASE=$(curl -s https://api.github.com/repos/glauberlima/procon-blocklist/releases/latest | jq -r '.assets[] | select(.name | contains("x86_64-unknown-linux-gnu")) | .browser_download_url')
           echo "📥 Downloading pre-compiled CLI from: $LATEST_RELEASE"
           curl -L -o procon-cli.tar.gz "$LATEST_RELEASE"
           tar xzf procon-cli.tar.gz

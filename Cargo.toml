@@ -6,7 +6,7 @@ rust-version = "1.90"
 description = "CLI tool to generate adblock lists from Procon-SP bad sites database"
 authors = ["Glauber Lima"]
 license = "MIT"
-repository = "https://github.com/glauberlima/procon-badsites"
+repository = "https://github.com/glauberlima/procon-blocklist"
 
 [dependencies]
 clap = { version = "4.5", features = ["derive"] }
