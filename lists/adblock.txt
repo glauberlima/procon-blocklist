@@ -1,4 +1,4 @@
-! Title: Evite esses Sites - Procon-SP
+! Title: Evite esses Sites - Fundação Procon-SP
 ! Expires: 1 day
 ! Description: Lista gerada a partir do site Evite esses Sites - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php - Fundação Procon/SP
 ! Homepage: https://github.com/glauberlima/procon-badsites

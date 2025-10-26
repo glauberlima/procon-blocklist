@@ -55,7 +55,7 @@ Este método bloqueia os sites em todo o sistema operacional.
 
 - 🚀 **Rápido**: Desempenho otimizado com Rust.
 - 📋 **Múltiplos Formatos**: Gera listas para Adblock e formato Hosts.
-- 🔄 **Dados em Tempo Real**: Busca os dados mais recentes da API do Procon-SP.
+- 🔄 **Dados em Tempo Real**: Busca os dados mais recentes da API da Fundação Procon-SP.
 - 🌍 **Multiplataforma**: Suporte para Linux, macOS e Windows.
 - 📖 **Código Aberto**: Totalmente transparente e aberto a contribuições.
 
@@ -102,3 +102,6 @@ Este projeto está licenciado sob a **Licença MIT**.
 
 - **Fundação Procon-SP** pela disponibilização dos dados.
 - **Comunidade Rust** pelo ecossistema incrível.
+
+---
+Feito com ❤️, ☕, Rust e IA generativa
