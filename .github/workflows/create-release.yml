@@ -68,7 +68,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: procon-cli-${{ matrix.target }}
-          path: procon-cli/target/${{ matrix.target }}/release/procon-cli*
+          path: target/${{ matrix.target }}/release/procon-cli*
 
   create-release:
     name: Create GitHub Release
