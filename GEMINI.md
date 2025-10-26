@@ -17,9 +17,9 @@ The core technologies used are:
 The application logic is straightforward: it fetches data from a specific URL, parses the JSON to extract a list of site domains, and then formats this list into one of two blocklist styles, adding a descriptive header.
 
 The repository is configured with GitHub Actions for CI/CD:
-1.  **PR Validation:** Automatically builds and tests the code on pull requests.
-2.  **Release:** Automatically builds binaries for Linux, macOS (Intel & Apple Silicon), and Windows, and creates a GitHub Release when new features or fixes are pushed to the `main` branch.
-3.  **List Update:** A scheduled workflow runs weekly (Tuesday to Friday) to automatically regenerate the blocklists located in the `lists/` directory and commits the changes.
+1.  **Validate PR:** Automatically builds and tests the code on pull requests.
+2.  **Create Release:** Automatically builds binaries for Linux, macOS (Intel & Apple Silicon), and Windows, and creates a GitHub Release when new features or fixes are pushed to the `main` branch.
+3.  **Generate Lists:** A scheduled workflow runs weekly (Tuesday to Friday) to automatically regenerate the blocklists located in the `lists/` directory and commits the changes.
 
 ## Building and Running
 
