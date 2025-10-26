@@ -1,0 +1,69 @@
+# Rust build artifacts
+target/
+Cargo.lock
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Log files
+*.log
+logs/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Test coverage
+*.profraw
+coverage/
+
+# Build artifacts from various tools
+build/
+dist/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Package files
+*.deb
+*.rpm
+*.tar.gz
+*.zip
+
+# CI/CD artifacts
+.github/artifacts/
+.github/cache/
+
+# Local development files
+scratch/
+notes/
+todo.txt
+
+# Generated documentation
+book/
+docs/build/
+
+# Backup files
+*.orig
+*.rej

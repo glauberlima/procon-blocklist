@@ -1,0 +1,63 @@
+name: Gerar listas
+
+on:
+  create:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 2 * * 2-5"
+
+jobs:
+  gerar-listas:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Rust
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          toolchain: 1.90.0
+
+      - name: Cache Rust dependencies
+        uses: Swatinem/rust-cache@v2
+
+      - name: Download latest Procon CLI
+        run: |
+          # Download the latest Linux binary from releases
+          LATEST_RELEASE=$(curl -s https://api.github.com/repos/glauberlima/procon-badsites/releases/latest | jq -r '.assets[] | select(.name | contains("x86_64-unknown-linux-gnu")) | .browser_download_url')
+          echo "📥 Downloading pre-compiled CLI from: $LATEST_RELEASE"
+          curl -L -o procon-cli.tar.gz "$LATEST_RELEASE"
+          tar xzf procon-cli.tar.gz
+          chmod +x procon-cli
+
+      - name: Configure Git
+        run: |
+          git config user.name "Glauber Lima [GitHub Actions]"
+          git config user.email "glauberlima@users.noreply.github.com"
+
+      - name: Generate lists with Procon CLI
+        run: |
+          cd lists
+          ../procon-cli generate --format adblock --output adblock.txt
+          ../procon-cli generate --format hosts --output hosts.txt
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if [ -n "$(git status --porcelain lists/)" ]; then
+            echo "changes=true" >> $GITHUB_OUTPUT
+            echo "📝 Changes detected in lists"
+          else
+            echo "changes=false" >> $GITHUB_OUTPUT
+            echo "✅ No changes detected in lists"
+          fi
+
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.changes == 'true'
+        run: |
+          git add lists/adblock.txt lists/hosts.txt
+          git commit -m "📋 Lista atualizada - $(date +"%d/%m/%Y %H:%M:%S (GMT%:z)")"
+          git push
