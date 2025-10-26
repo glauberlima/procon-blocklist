@@ -104,4 +104,4 @@ Este projeto está licenciado sob a **Licença MIT**.
 - **Comunidade Rust** pelo ecossistema incrível.
 
 ---
-Feito com ❤️, Rust e IA generativa
+Feito com ❤️, ☕, Rust e IA generativa
