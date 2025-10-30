@@ -3,7 +3,7 @@
 ! Description: Lista gerada a partir do site Evite esses Sites - https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php - Fundação Procon/SP
 ! Homepage: https://github.com/glauberlima/procon-blocklist
 ! Licence: https://github.com/glauberlima/procon-blocklist/blob/main/LICENSE
-! Updated: 29 October 2025 03:34:23 (GMT+00:00)
+! Updated: 30 October 2025 03:30:20 (GMT+00:00)
 ||123importados.com^
 ||123multiofertas.com.br^
 ||123multiofertas.net^
