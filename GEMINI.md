@@ -19,7 +19,7 @@ The application logic is straightforward: it fetches data from a specific URL, p
 The repository is configured with GitHub Actions for CI/CD:
 1.  **Validate PR:** Automatically builds and tests the code on pull requests.
 2.  **Create Release:** Automatically builds binaries for Linux, macOS (Intel & Apple Silicon), and Windows, and creates a GitHub Release when new features or fixes are pushed to the `main` branch.
-3.  **Generate Lists:** A scheduled workflow runs weekly (Tuesday to Friday) to automatically regenerate the blocklists located in the `lists/` directory and commits the changes.
+3.  **Generate Lists:** A scheduled workflow runs weekly (Tuesday to Friday) to automatically regenerate the blocklists located in the `data/` directory and commits the changes.
 
 ## Building and Running
 
@@ -45,7 +45,7 @@ The project uses the standard Rust toolchain (Cargo).
   cargo run -- generate
 
   # Generate hosts list and save to a file
-  cargo run -- generate --format hosts --output ./hosts.txt
+  cargo run -- generate --format hosts --output ./hosts
   ```
 - **Using the compiled binary:**
   ```bash
