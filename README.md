@@ -22,8 +22,8 @@ As listas são atualizadas automaticamente de segunda a sexta-feira. Para se pro
 
 | Formato | Descrição | Link |
 |---------|-----------|------|
-| **AdBlock** (recomendado) | Lista de filtros para bloqueadores como uBlock Origin, AdGuard | [Download](https://raw.githubusercontent.com/glauberlima/procon-blocklist/main/lists/adblock.txt) |
-| **Hosts** | Arquivo hosts para bloqueio em nível de sistema | [Download](https://raw.githubusercontent.com/glauberlima/procon-blocklist/main/lists/hosts.txt) |
+| **AdBlock** (recomendado) | Lista de filtros para bloqueadores como uBlock Origin, AdGuard | [Download](https://raw.githubusercontent.com/glauberlima/procon-blocklist/main/data/adblock.txt) |
+| **Hosts** | Arquivo hosts para bloqueio em nível de sistema | [Download](https://raw.githubusercontent.com/glauberlima/procon-blocklist/main/data/hosts) |
 
 ### ⚙️ Como Adicionar a Lista ao seu Bloqueador
 
@@ -40,11 +40,11 @@ Este método bloqueia os sites em todo o sistema operacional.
 
 - **Linux / macOS:**
   ```bash
-  sudo curl https://raw.githubusercontent.com/glauberlima/procon-blocklist/main/lists/hosts.txt >> /etc/hosts
+  sudo curl https://raw.githubusercontent.com/glauberlima/procon-blocklist/main/data/hosts >> /etc/hosts
   ```
 - **Windows (usando PowerShell como Administrador):**
   ```powershell
-  curl https://raw.githubusercontent.com/glauberlima/procon-blocklist/main/lists/hosts.txt >> C:\Windows\System32\drivers\etc\hosts
+  curl https://raw.githubusercontent.com/glauberlima/procon-blocklist/main/data/hosts >> C:\Windows\System32\drivers\etc\hosts
   ```
 
 ## ✨ Sobre o Projeto
@@ -78,7 +78,7 @@ A ferramenta `procon-cli` permite gerar as listas localmente.
     ./target/release/procon-cli generate
 
     # Gerar lista Hosts e salvar em um arquivo
-    ./target/release/procon-cli generate --format hosts --output hosts.txt
+    ./target/release/procon-cli generate --format hosts --output hosts
     ```
 
 ### Contribuição

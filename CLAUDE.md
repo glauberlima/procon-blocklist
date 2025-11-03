@@ -1,0 +1,1 @@
+- sempre que estiver prestes a implementar um planejamento, me lembre de mudar para o modelo Haiku, caso ja nao esteja

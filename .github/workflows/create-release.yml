@@ -98,7 +98,7 @@ jobs:
             ./procon-cli generate --output adblock.txt
 
             # Gera a lista no formato hosts
-            ./procon-cli generate --format hosts --output hosts.txt
+            ./procon-cli generate --format hosts --output hosts
             ```
           files: artifacts/**/*
           draft: false
