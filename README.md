@@ -4,7 +4,7 @@
 
 **Listas de bloqueio, atualizadas automaticamente, baseadas na relação de sites não confiáveis da [Fundação Procon-SP](https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php).**
 
-[![Rust](https://img.shields.io/badge/rust-1.90.0-orange.svg)](https://www.rust-lang.org/)
+[![Rust](https://img.shields.io/badge/rust-1.91.0-orange.svg)](https://www.rust-lang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub release](https://img.shields.io/github/release/glauberlima/procon-blocklist.svg)](https://github.com/glauberlima/procon-blocklist/releases)
 
@@ -20,10 +20,10 @@
 
 As listas são atualizadas automaticamente de segunda a sexta-feira. Para se proteger, basta adicionar um dos links abaixo ao seu bloqueador de anúncios preferido.
 
-| Formato | Descrição | Link |
-|---------|-----------|------|
+| Formato                   | Descrição                                                      | Link                                                                                             |
+| ------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
 | **AdBlock** (recomendado) | Lista de filtros para bloqueadores como uBlock Origin, AdGuard | [Download](https://raw.githubusercontent.com/glauberlima/procon-blocklist/main/data/adblock.txt) |
-| **Hosts** | Arquivo hosts para bloqueio em nível de sistema | [Download](https://raw.githubusercontent.com/glauberlima/procon-blocklist/main/data/hosts) |
+| **Hosts**                 | Arquivo hosts para bloqueio em nível de sistema                | [Download](https://raw.githubusercontent.com/glauberlima/procon-blocklist/main/data/hosts)       |
 
 ### ⚙️ Como Adicionar a Lista ao seu Bloqueador
 
@@ -38,22 +38,22 @@ As listas são atualizadas automaticamente de segunda a sexta-feira. Para se pro
 
 Este método bloqueia os sites em todo o sistema operacional.
 
-- **Linux / macOS:**
-  ```bash
-  sudo curl https://raw.githubusercontent.com/glauberlima/procon-blocklist/main/data/hosts >> /etc/hosts
-  ```
-- **Windows (usando PowerShell como Administrador):**
-  ```powershell
-  curl https://raw.githubusercontent.com/glauberlima/procon-blocklist/main/data/hosts >> C:\Windows\System32\drivers\etc\hosts
-  ```
+-   **Linux / macOS:**
+    ```bash
+    sudo curl https://raw.githubusercontent.com/glauberlima/procon-blocklist/main/data/hosts >> /etc/hosts
+    ```
+-   **Windows (usando PowerShell como Administrador):**
+    ```powershell
+    curl https://raw.githubusercontent.com/glauberlima/procon-blocklist/main/data/hosts >> C:\Windows\System32\drivers\etc\hosts
+    ```
 
 ## ✨ Sobre o Projeto
 
-- 🚀 **Rápido**: Desempenho otimizado com Rust.
-- 📋 **Múltiplos Formatos**: Gera listas para Adblock e formato Hosts.
-- 🔄 **Dados em Tempo Real**: Busca os dados mais recentes da API da Fundação Procon-SP.
-- 🌍 **Multiplataforma**: Suporte para Linux, macOS e Windows.
-- 📖 **Código Aberto**: Totalmente transparente e aberto a contribuições.
+-   🚀 **Rápido**: Desempenho otimizado com Rust.
+-   📋 **Múltiplos Formatos**: Gera listas para Adblock e formato Hosts.
+-   🔄 **Dados em Tempo Real**: Busca os dados mais recentes da API da Fundação Procon-SP.
+-   🌍 **Multiplataforma**: Suporte para Linux, macOS e Windows.
+-   📖 **Código Aberto**: Totalmente transparente e aberto a contribuições.
 
 ---
 
@@ -66,6 +66,7 @@ Esta seção contém informações para quem deseja executar a ferramenta manual
 A ferramenta `procon-cli` permite gerar as listas localmente.
 
 1.  **Instalação:** Baixe o executável para o seu sistema operacional na [**página de Releases**](https://github.com/glauberlima/procon-blocklist/releases) ou, se tiver o [Rust instalado](https://www.rust-lang.org/tools/install), compile a partir do código-fonte:
+
     ```bash
     git clone https://github.com/glauberlima/procon-blocklist.git
     cd procon-blocklist
@@ -73,6 +74,7 @@ A ferramenta `procon-cli` permite gerar as listas localmente.
     ```
 
 2.  **Uso:**
+
     ```bash
     # Gerar lista AdBlock e exibir no terminal
     ./target/release/procon-cli generate
@@ -96,8 +98,9 @@ Este projeto está licenciado sob a [**Licença MIT**](LICENSE).
 
 ## 🙏 Agradecimentos
 
-- **Fundação Procon-SP** pela disponibilização dos dados.
-- **Comunidade Rust** pelo ecossistema incrível.
+-   **Fundação Procon-SP** pela disponibilização dos dados.
+-   **Comunidade Rust** pelo ecossistema incrível.
 
 ---
+
 Feito com ❤️, ☕, Rust e IA generativa
