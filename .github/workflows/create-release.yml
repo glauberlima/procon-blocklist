@@ -2,11 +2,11 @@ name: Create Release
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
     paths:
-      - 'src/**'
-      - 'Cargo.*'
-      - '**/create-release.yml'
+      - "src/**"
+      - "Cargo.*"
+      - "**/create-release.yml"
 
 jobs:
   test:
@@ -19,7 +19,7 @@ jobs:
       - name: Setup Rust
         uses: dtolnay/rust-toolchain@stable
         with:
-          toolchain: 1.90.0
+          toolchain: 1.91.0
 
       - name: Cache Rust dependencies
         uses: Swatinem/rust-cache@v2
@@ -44,7 +44,7 @@ jobs:
       - name: Setup Rust
         uses: dtolnay/rust-toolchain@stable
         with:
-          toolchain: 1.90.0
+          toolchain: 1.91.0
           targets: ${{ matrix.target }}
 
       - name: Cache Rust dependencies
