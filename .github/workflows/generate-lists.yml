@@ -47,12 +47,22 @@ jobs:
       - name: Check for changes
         id: check_changes
         run: |
-          if [ -n "$(git status --porcelain lists/)" ]; then
+          # Extract only site listings (ignore headers with timestamps)
+          grep '^||' lists/adblock.txt > /tmp/adblock_sites.txt 2>/dev/null || true
+          grep '^0\.0\.0\.0' lists/hosts.txt > /tmp/hosts_sites.txt 2>/dev/null || true
+
+          # Get previous versions from git
+          git show HEAD:lists/adblock.txt | grep '^||' > /tmp/adblock_sites_old.txt 2>/dev/null || true
+          git show HEAD:lists/hosts.txt | grep '^0\.0\.0\.0' > /tmp/hosts_sites_old.txt 2>/dev/null || true
+
+          # Compare only the site listings (ignore timestamp in headers)
+          if ! diff -q /tmp/adblock_sites.txt /tmp/adblock_sites_old.txt >/dev/null 2>&1 || \
+             ! diff -q /tmp/hosts_sites.txt /tmp/hosts_sites_old.txt >/dev/null 2>&1; then
             echo "changes=true" >> $GITHUB_OUTPUT
-            echo "📝 Changes detected in lists"
+            echo "📝 Changes detected in site listings"
           else
             echo "changes=false" >> $GITHUB_OUTPUT
-            echo "✅ No changes detected in lists"
+            echo "✅ No changes in site listings (only timestamp updated)"
           fi
 
       - name: Commit and push changes
