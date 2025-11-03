@@ -20,38 +20,10 @@ indent_size = 4
 trim_trailing_whitespace = false
 max_line_length = 100
 
-[*.yml]
+[*.{yml,yaml}]
 indent_style = space
 indent_size = 2
-
-[*.yaml]
-indent_style = space
-indent_size = 2
-
-[Makefile]
-indent_style = tab
 
 [*.json]
 indent_style = space
 indent_size = 2
-
-[*.js]
-indent_style = space
-indent_size = 2
-
-[*.ts]
-indent_style = space
-indent_size = 2
-
-[*.html]
-indent_style = space
-indent_size = 2
-
-[*.css]
-indent_style = space
-indent_size = 2
-
-[*.sh]
-end_of_line = lf
-indent_style = space
-indent_size = 4

@@ -19,51 +19,20 @@ ehthumbs.db
 Thumbs.db
 
 # Temporary files
-*.tmp
-*.temp
-*.bak
-*.backup
+*.{tmp,temp,bak,backup}
 
 # Log files
 *.log
 logs/
 
-# Environment files
-.env
-.env.local
-.env.*.local
-
 # Test coverage
 *.profraw
 coverage/
-
-# Build artifacts from various tools
-build/
-dist/
-*.exe
-*.dll
-*.so
-*.dylib
-
-# Package files
-*.deb
-*.rpm
-*.tar.gz
-*.zip
-
-# CI/CD artifacts
-.github/artifacts/
-.github/cache/
 
 # Local development files
 scratch/
 notes/
 todo.txt
 
-# Generated documentation
-book/
-docs/build/
-
 # Backup files
-*.orig
-*.rej
+*.{orig,rej}
