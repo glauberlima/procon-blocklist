@@ -1,8 +1,8 @@
 [package]
 name = "procon-cli"
-version = "0.2.4"
+version = "0.2.5"
 edition = "2024"
-rust-version = "1.90"
+rust-version = "1.91"
 description = "Gera listas de bloqueio AdBlock e hosts a partir da base de dados de sites não confiáveis da Fundação Procon-SP"
 authors = ["Glauber Lima"]
 license = "MIT"
@@ -10,12 +10,18 @@ repository = "https://github.com/glauberlima/procon-blocklist"
 
 [dependencies]
 clap = { version = "4.5", features = ["derive"] }
-reqwest = { version = "0.12", default-features = false, features = ["json", "native-tls"] }
+reqwest = { version = "0.12", default-features = false, features = [
+    "json",
+    "native-tls",
+] }
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
 tokio = { version = "1.48", features = ["rt-multi-thread", "macros"] }
 anyhow = "1.0"
-chrono = { version = "0.4", default-features = false, features = ["std", "now"] }
+chrono = { version = "0.4", default-features = false, features = [
+    "std",
+    "now",
+] }
 
 [profile.release]
 opt-level = 3
